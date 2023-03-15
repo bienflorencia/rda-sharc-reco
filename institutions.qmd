@@ -1,84 +1,93 @@
 ---
-title: "(A) Recognition at the individual level"
+title: "Recommendations to institutions"
 ---
 
+### Adopt formal policies requiring/strongly encouraging OS activities.  
 
-## Be aware of the existing national/institutional policies/agreements relevant to your research situation (in your institution, country, region…).  
+  - Institutional prerequisites to enable the practise of OS:
+    - mandate deposit of ALL research outputs (e.g., publications, datasets, code) in the institutional or other compliant repository to be publicly available under an open license (no later than the time of an associated publication, as much as possible), in case of legitimate constraints - ‘dark’* deposit with open metadata.
+(\*) *A 'dark' deposit (or restricted deposit) is a work in a repository whose full text stays hidden from the public (not OA). However, metadata associated with these deposits is publicly accessible so that authors’ scholarly records are discoverable*  
+    - mandate for a DMP/software management plan for all research projects, which the staff/postgraduate students are involved in.  
+    - require to manage research data in line with the FAIR principles.  
+    - ensure that all publications (co)-authored by the staff/postgraduate students contain Data Availability Statements.  
+    - encourage that the staff/postgraduate students retain sufficient IP rights to comply with the OA requirements.  
+    
+::: {.callout-caution collapse="true"}
+## Examples of Institutional rights-retention policies
 
+[Harvard University](https://osc.hul.harvard.edu/policies/), [University of Edinburgh](https://www.ed.ac.uk/information-services/about/policies-and-regulations/research-publications)
+
+:::
+
+  - Develop and implement rewarding policies:
+    - boost appreciation of the researchers with good RDM & OS practices with well-documented, FAIR and open digital outputs, in their annual reviews by including OS activities (such as those described in introduction) into the institutional research evaluation scheme.    
+    - consider/create performance indicators (quantitative and/or qualitative) in general as well as disciplinary data-level metrics for crediting data sharing in the evaluation schemes.  
+
+::: {.callout-caution collapse="true"}
+## Best practices examples
+
+[EC Open Science Career Assessment Matrix (OS-CAM)](https://op.europa.eu/en/publication-detail/-/publication/47a3a330-c9cb-11e7-8e69-01aa75ed71a1/language-en), [TU DELFT Open Science programme](https://www.tudelft.nl/open-science), [Utrecht University policy on Recognition and Rewards](https://www.uu.nl/en/research/open-science/tracks/recognition-and-rewards), [BIH QUEST programme](https://www.bihealth.org/en/translation/innovation-enabler/quest-center)
+
+:::
+
+  - promote that non-OA (closed) outputs not be reported for performance evaluation procedures 
+
+::: {.callout-caution collapse="true"}
+## Best practices examples
+
+[CNRS policy](https://www.science-ouverte.cnrs.fr/wp-content/uploads/2019/11/CNRS_Roadmap_Open_Science_18nov2019.pdf)
+:::
+
+  - Create data champions schemes.  
+  - Create Open Science stamp/badge/label in a PhD Degree Certificate?	
 
 ::: {.callout-caution collapse="true"}
 ## Examples
 
-[National policies](https://docs.google.com/document/d/1AF2ObsXG2G8dsUHqJuRH-rE8zLHVZw8Q/edit?usp=sharing&ouid=103813503649602464757&rtpof=true&sd=true)
-
+[Visibility](https://docs.google.com/spreadsheets/d/1jwY8Xx58OHF2LVMcPs80R9ioULS_cuIDOoj7QhI7OIM/edit?usp=sharing)
 :::
 
-	
-## Be aware of OS training sessions and resources provided in your institution or community
+
+### Provide OS capacity building support:
+  - Provide OS courses (as part of the annual mandatory training for research staff  and mandatory subjects for postgraduate students).   
+  - Organise institutional working groups, workshops.  
+  - Provide digital training materials, newsletters.  
 
 ::: {.callout-caution collapse="true"}
 ## Examples
 
-[OS & FAIR training initiatives](https://docs.google.com/spreadsheets/d/11YgQ6Shk1F1mLOOG1n8JAmPDTZqtDKTsEdjCqGzGbu8/edit?usp=sharing)
-[UNESCO's index](https://www.unesco.org/en/open-science/capacity-building-index)
+[Best practices & resources  training](https://docs.google.com/spreadsheets/d/11YgQ6Shk1F1mLOOG1n8JAmPDTZqtDKTsEdjCqGzGbu8/edit?usp=sharing), [UNESCO's index](https://www.unesco.org/en/open-science/capacity-building-index)
 :::
 
-## Maximise your visibility citation out of your open science work
-
-### 1. Pre-requisite on digital presence: 
-
-  - Maximise as much as possible your digital presence using PID for you and for all your outputs (ex/ ORCID, DOI or other identifier for OA publications / OA datasets/ Open source software.  
-More information: [Parsec Digital Presence checklist](https://zenodo.org/record/7071677#.Y-9Ms3bMK5c) | [Unesco](https://www.unesco.org/en/open-science/receive-credit-all-your-contributions-science).
-  - Update your cv & reporting activities with your OS activites.  
-
-### 2. Make your data & outputs citable
-
-  - Include citation elements for research data/software you created in the References section of your paper. To support indexing and reuse:   
-    - Use American Psychological Association (APA) style.  
-    - Include a persistent identifier (DOI), preferred, or URL.  
-    - Use labels/bracketed descriptions (e.g., [Dataset], [Software], [Collection], [ComputationalNotebook]).  
-  - Include a data/software availability statement in your paper that describes where and how your data are available, and how to cite them if possible. Refer to templates for detailed information.  
-[Templates and more information](https://data.agu.org/resources/availability-citation-checklist-for-authors)
-
-### 3. Acknowledge OS contributorship
-
-  - Recognise all kind of contributorship early in the projects  
-More information: [Acknowledging Contributors - The Turing Way](https://the-turing-way.netlify.app/community-handbook/acknowledgement.html)
-  - Use the CRediT taxonomy:
-    - Allocate the terms appropriately to your own contribution and to contributors within research outputs.  
-    - Advocate that your institution and any publications you’re submitting to acknowledge and adopt the taxonomy.  
-More information: [Implementing CRediT](https://credit.niso.org/implementing-credit/)
-
-
-### 4. Cite or acknowledge other’s OS activities using DOis or other PIDs
-
-  - Include data citations for all research data you used in the References section of your paper.  
-  - Acknowledge any OS tool you may use , e.g. with their  identifier or “How to cite” statement (if any).  
-More information: [RDA WG](https://www.rd-alliance.org/groups/national-pid-strategies-wg)
-
-## Get financial reward or support
-
-  - Apply to specific funds for OS activities if any  
-  - Apply to OS prize/awards if any  
+  - Establish dedicated human resources/units,  such as data stewards & managers, and  engage libraries.  
 
 ::: {.callout-caution collapse="true"}
-## Examples
+## Best practice
 
-[Award/prizes](https://docs.google.com/spreadsheets/d/1jwY8Xx58OHF2LVMcPs80R9ioULS_cuIDOoj7QhI7OIM/edit?usp=sharing)
-
+[TU Delft Data Stewardship project and Data Champions initiative](https://doi.org/10.1629/uksg.484), [CNRS DDOR](https://www.science-ouverte.cnrs.fr/en/open-research-data-department/ )
 :::
 
-  - Anticipate an OS budget in your research funding applications  
 
-## Get symbolic reward
-
-  - Apply for OS certificates/OS ambassador/OS badge schemes
-  - Apply for training badges
-  - Join OS acknowledging opportunities to gain visibility/reputation
+### Provide infrastructure and material resources for OS
+  - Provide or work with a trusted repository 
 
 ::: {.callout-caution collapse="true"}
-## Examples
+## Best practice
 
-[Symbolic rewards](https://docs.google.com/spreadsheets/d/1jwY8Xx58OHF2LVMcPs80R9ioULS_cuIDOoj7QhI7OIM/edit?usp=sharing)
-
+[Repository certification based on CoreTrustSeal, Nestor Seal DIN31644 or ISO16363 (see the EC’s expectations for trusted repositories in the Horizon Europe Annotated Model Grant Agreement, pp. 155-156)](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/aga_en.pdf), [CNRS DDOR](https://www.science-ouverte.cnrs.fr/en/open-research-data-department/ )
 :::
+
+  - Provide digital services &  tools (e.g., DMP tool; FAIR data management, anonymisation, analysis tools)
+
+### Provide financial support for OS:
+  - Costs related to PIDs, such as DOIs, registration for all research outputs, including datasets.
+  - APCs (excluding hybrid journals), transformative agreement costs.  
+  - Costs associated with research data/software management.  
+  - Investments in national/regional OS initiatives, such as Diamond OA initiatives (if any).  
+
+### Create other types of rewards
+
+  - Co-work chances with related OS groups and people.  
+  - Free time (sabbatical time).  
+  - Gifts.  
+  - Salary bonus.  
