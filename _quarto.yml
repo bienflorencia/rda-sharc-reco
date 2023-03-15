@@ -15,14 +15,16 @@ website:
         text: GitHub
     style: docked
     contents:
-      - href: index.qmd
-        text: Home
-      - href: schedule.qmd
-        text: Schedule
-      - href: materials.qmd
-        text: Materials
+      # - href: index.qmd
+      #   text: Home
+      # - href: schedule.qmd
+      #   text: Schedule
+      # - href: materials.qmd
+      #   text: Materials
+      - href: intro.qmd
+        text: Intro
       - href: https://github.com/bienflorencia/rda-sharc-reco/discussions
-        text: Forum
+        text: Contribute
 
 format:
   html:
@@ -32,4 +34,3 @@ format:
 
 execute:
   freeze: auto
-
