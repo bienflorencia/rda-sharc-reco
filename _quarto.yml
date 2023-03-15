@@ -15,14 +15,18 @@ website:
         text: GitHub
     style: docked
     contents:
-      # - href: index.qmd
-      #   text: Home
-      # - href: schedule.qmd
-      #   text: Schedule
-      # - href: materials.qmd
-      #   text: Materials
       - href: intro.qmd
         text: Intro
+      - href: individual.qmd
+        text: (A) Recognition at the individual level
+      - href: institutions.qmd
+        text: (B) Recommendations to institutions
+      - href: funders.qmd
+        text: (C) Recommendations to funders
+      - href: publishers.qmd
+        text: (D) Recommendations to publishers
+      - href: policy-makers.qmd
+        text: (E) Recommendations to government policy makers
       - href: https://github.com/bienflorencia/rda-sharc-reco/discussions
         text: Contribute
 
