@@ -7,17 +7,17 @@
     "text": "Datasets\nSlides"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Course Title",
-    "section": "",
-    "text": "Course info & details here"
-  },
-  {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
     "text": "Example schedule:\n\n\n\n\n\n\n\n\n\nMorning\nAfternoon\n\n\n\n\nL\nIntro + Data manipulation\ngit / GitHub\n\n\nM\nGeneralised Linear Models\nData visualisation\n\n\nX\nMixed models / GAM / Bayes\nFunctional programming + Students work\n\n\nJ\nMultivariate analyses\nReproducible workflows\n\n\nV\nUsing R as GIS + Students work\nProject presentations"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Reco-SHARC: Reward/incentive Guidance working document",
+    "section": "",
+    "text": "Introductive section describing the various open science activities A. Recognition at the individual level (researcher / student / technician) ● Be aware of the existing national/institutional policies/agreements relevant to your research situation (in your institution, country, region…). ● Be aware of OS training sessions and resources provided in your institution or community ● Maximise your visibility citation out of your open science work 1. Pre-requisite on digital presence: 2. Make your data & outputs citable 3. Acknowledge OS contributorship 4. Cite or acknowledge other’s OS activities using DOis or other PIDs ● Get financial reward or support ● Get symbolic reward B. Recommendations to institutions (research performing organisations) ● Adopt formal policies requiring/strongly encouraging OS activities: ● Provide OS capacity building support: ● Provide infrastructure and material resources for OS ● Provide financial support for OS: ● Create other types of rewards C. Recommendations to funders ● Adopt formal policies requiring/strongly encouraging OS activities ● Adopt relevant frameworks and initiatives related to responsible research assessment ● Monitor the compliance for open science implementation and make it transparent to relevant stakeholders ● Recognise well-documented, FAIR and open digital outputs as first-class contributions to the scientific record during the project lifecycle ● Create calls financing OS driven activities and calls financing re-use of data ● Target systematically part of the budget to open science activities ● Ensure that enough funding be dedicated to appropriate resources for staff and open science infrastructure devoted to the development of shared data platforms D. Recommendations to publishers ● Require that authors include systematically their ORCIDs in all research outputs ● Adopt the CRediT taxonomy ● Adopt the Open Science badges initiative ● Find ways to recognise peer-reviews related work ● Encourage OA publishing in all LMICs by revising the criteria for publishing fees and adjust it using meaningful indicators E. Recommendations to government policy makers ● Develop formal policies requiring/strongly encouraging OS activities at all levels:"
   }
 ]
