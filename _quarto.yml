@@ -17,22 +17,23 @@ website:
     contents:
       - href: intro.qmd
         text: Intro
+        text: Level
       - href: individual.qmd
-        text: (A) Recognition at the individual level
+        text: (A) Individual
       - href: institutions.qmd
-        text: (B) Recommendations to institutions
+        text: (B) Institutions
       - href: funders.qmd
-        text: (C) Recommendations to funders
+        text: (C) Funders
       - href: publishers.qmd
-        text: (D) Recommendations to publishers
+        text: (D) Publishers
       - href: policy-makers.qmd
-        text: (E) Recommendations to government policy makers
+        text: (E) Government policy makers
       - href: https://github.com/bienflorencia/rda-sharc-reco/discussions
         text: Contribute
 
 format:
   html:
-    theme: cosmo
+    theme: yeti
     # css: styles.css
     toc: true
 
