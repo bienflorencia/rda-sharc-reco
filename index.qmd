@@ -5,7 +5,7 @@ title: 'Reward/incentive Guidance working document'
 ::: {.callout-important}
 ## Important
 
-Be aware that this is a draft document under review.
+Be aware that this is a **draft** document under review.
 :::
 
 
@@ -13,11 +13,11 @@ The first section (A) guides researchers on practices they should adopt to maxim
 
 
 ## Sections
-A. Recognition at the individual level (researcher / student / technician).  
-B. Recommendations to institutions (research performing organisations).  
-C. Recommendations to funders.  
-[D. Recommendations to publishers](/publishers)
-E. Recommendations to government policy makers.  
+A. [Recognition at the individual level (researcher / student / technician)](/individual)  
+B. [Recommendations to institutions (research performing organisations)](/institutions)  
+C. [Recommendations to funders](/funders)    
+D. [Recommendations to publishers](/publishers)  
+E. [Recommendations to government policy makers](/policy-makers)   
 
 
 ## Examples of OS activities

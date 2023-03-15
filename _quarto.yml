@@ -15,7 +15,7 @@ website:
         text: GitHub
     style: docked
     contents:
-      - href: intro.qmd
+      - href: index.qmd
         text: Intro
       - href: individual.qmd
         text: (A) Individual

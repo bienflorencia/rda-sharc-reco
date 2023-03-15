@@ -2,7 +2,7 @@
 title: "Recommendations to institutions"
 ---
 
-### Adopt formal policies requiring/strongly encouraging OS activities.  
+### - Adopt formal policies requiring/strongly encouraging OS activities.  
 
   - Institutional prerequisites to enable the practise of OS:
     - mandate deposit of ALL research outputs (e.g., publications, datasets, code) in the institutional or other compliant repository to be publicly available under an open license (no later than the time of an associated publication, as much as possible), in case of legitimate constraints - ‘dark’* deposit with open metadata.
@@ -48,7 +48,7 @@ title: "Recommendations to institutions"
 :::
 
 
-### Provide OS capacity building support:
+### - Provide OS capacity building support:
   - Provide OS courses (as part of the annual mandatory training for research staff  and mandatory subjects for postgraduate students).   
   - Organise institutional working groups, workshops.  
   - Provide digital training materials, newsletters.  
@@ -68,7 +68,7 @@ title: "Recommendations to institutions"
 :::
 
 
-### Provide infrastructure and material resources for OS
+### - Provide infrastructure and material resources for OS
   - Provide or work with a trusted repository 
 
 ::: {.callout-caution collapse="true"}
@@ -79,13 +79,13 @@ title: "Recommendations to institutions"
 
   - Provide digital services &  tools (e.g., DMP tool; FAIR data management, anonymisation, analysis tools)
 
-### Provide financial support for OS:
+### - Provide financial support for OS:
   - Costs related to PIDs, such as DOIs, registration for all research outputs, including datasets.
   - APCs (excluding hybrid journals), transformative agreement costs.  
   - Costs associated with research data/software management.  
   - Investments in national/regional OS initiatives, such as Diamond OA initiatives (if any).  
 
-### Create other types of rewards
+### - Create other types of rewards
 
   - Co-work chances with related OS groups and people.  
   - Free time (sabbatical time).  
