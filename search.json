@@ -72,37 +72,9 @@
   {
     "objectID": "institutions.html",
     "href": "institutions.html",
-    "title": "(A) Recognition at the individual level",
+    "title": "Recommendations to institutions",
     "section": "",
-    "text": "Examples\n\n\n\n\n\nNational policies"
-  },
-  {
-    "objectID": "institutions.html#be-aware-of-os-training-sessions-and-resources-provided-in-your-institution-or-community",
-    "href": "institutions.html#be-aware-of-os-training-sessions-and-resources-provided-in-your-institution-or-community",
-    "title": "(A) Recognition at the individual level",
-    "section": "Be aware of OS training sessions and resources provided in your institution or community",
-    "text": "Be aware of OS training sessions and resources provided in your institution or community\n\n\n\n\n\n\nExamples\n\n\n\n\n\nOS & FAIR training initiatives UNESCO’s index"
-  },
-  {
-    "objectID": "institutions.html#maximise-your-visibility-citation-out-of-your-open-science-work",
-    "href": "institutions.html#maximise-your-visibility-citation-out-of-your-open-science-work",
-    "title": "(A) Recognition at the individual level",
-    "section": "Maximise your visibility citation out of your open science work",
-    "text": "Maximise your visibility citation out of your open science work\n\n1. Pre-requisite on digital presence:\n\nMaximise as much as possible your digital presence using PID for you and for all your outputs (ex/ ORCID, DOI or other identifier for OA publications / OA datasets/ Open source software.\nMore information: Parsec Digital Presence checklist | Unesco.\nUpdate your cv & reporting activities with your OS activites.\n\n\n\n2. Make your data & outputs citable\n\nInclude citation elements for research data/software you created in the References section of your paper. To support indexing and reuse:\n\nUse American Psychological Association (APA) style.\n\nInclude a persistent identifier (DOI), preferred, or URL.\n\nUse labels/bracketed descriptions (e.g., [Dataset], [Software], [Collection], [ComputationalNotebook]).\n\n\nInclude a data/software availability statement in your paper that describes where and how your data are available, and how to cite them if possible. Refer to templates for detailed information.\nTemplates and more information\n\n\n\n3. Acknowledge OS contributorship\n\nRecognise all kind of contributorship early in the projects\nMore information: Acknowledging Contributors - The Turing Way\nUse the CRediT taxonomy:\n\nAllocate the terms appropriately to your own contribution and to contributors within research outputs.\n\nAdvocate that your institution and any publications you’re submitting to acknowledge and adopt the taxonomy.\nMore information: Implementing CRediT\n\n\n\n\n4. Cite or acknowledge other’s OS activities using DOis or other PIDs\n\nInclude data citations for all research data you used in the References section of your paper.\n\nAcknowledge any OS tool you may use , e.g. with their identifier or “How to cite” statement (if any).\nMore information: RDA WG"
-  },
-  {
-    "objectID": "institutions.html#get-financial-reward-or-support",
-    "href": "institutions.html#get-financial-reward-or-support",
-    "title": "(A) Recognition at the individual level",
-    "section": "Get financial reward or support",
-    "text": "Get financial reward or support\n\nApply to specific funds for OS activities if any\n\nApply to OS prize/awards if any\n\n\n\n\n\n\n\nExamples\n\n\n\n\n\nAward/prizes\n\n\n\n\nAnticipate an OS budget in your research funding applications"
-  },
-  {
-    "objectID": "institutions.html#get-symbolic-reward",
-    "href": "institutions.html#get-symbolic-reward",
-    "title": "(A) Recognition at the individual level",
-    "section": "Get symbolic reward",
-    "text": "Get symbolic reward\n\nApply for OS certificates/OS ambassador/OS badge schemes\nApply for training badges\nJoin OS acknowledging opportunities to gain visibility/reputation\n\n\n\n\n\n\n\nExamples\n\n\n\n\n\nSymbolic rewards"
+    "text": "Adopt formal policies requiring/strongly encouraging OS activities.\n\nInstitutional prerequisites to enable the practise of OS:\n\nmandate deposit of ALL research outputs (e.g., publications, datasets, code) in the institutional or other compliant repository to be publicly available under an open license (no later than the time of an associated publication, as much as possible), in case of legitimate constraints - ‘dark’* deposit with open metadata. (*) A ‘dark’ deposit (or restricted deposit) is a work in a repository whose full text stays hidden from the public (not OA). However, metadata associated with these deposits is publicly accessible so that authors’ scholarly records are discoverable\n\nmandate for a DMP/software management plan for all research projects, which the staff/postgraduate students are involved in.\n\nrequire to manage research data in line with the FAIR principles.\n\nensure that all publications (co)-authored by the staff/postgraduate students contain Data Availability Statements.\n\nencourage that the staff/postgraduate students retain sufficient IP rights to comply with the OA requirements.\n\n\n\n\n\n\n\n\nExamples of Institutional rights-retention policies\n\n\n\n\n\nHarvard University, University of Edinburgh\n\n\n\n\nDevelop and implement rewarding policies:\n\nboost appreciation of the researchers with good RDM & OS practices with well-documented, FAIR and open digital outputs, in their annual reviews by including OS activities (such as those described in introduction) into the institutional research evaluation scheme.\n\nconsider/create performance indicators (quantitative and/or qualitative) in general as well as disciplinary data-level metrics for crediting data sharing in the evaluation schemes.\n\n\n\n\n\n\n\n\nBest practices examples\n\n\n\n\n\nEC Open Science Career Assessment Matrix (OS-CAM), TU DELFT Open Science programme, Utrecht University policy on Recognition and Rewards, BIH QUEST programme\n\n\n\n\npromote that non-OA (closed) outputs not be reported for performance evaluation procedures\n\n\n\n\n\n\n\nBest practices examples\n\n\n\n\n\nCNRS policy\n\n\n\n\nCreate data champions schemes.\n\nCreate Open Science stamp/badge/label in a PhD Degree Certificate?\n\n\n\n\n\n\n\nExamples\n\n\n\n\n\nVisibility\n\n\n\n\n\nProvide OS capacity building support:\n\nProvide OS courses (as part of the annual mandatory training for research staff and mandatory subjects for postgraduate students).\n\nOrganise institutional working groups, workshops.\n\nProvide digital training materials, newsletters.\n\n\n\n\n\n\n\nExamples\n\n\n\n\n\nBest practices & resources training, UNESCO’s index\n\n\n\n\nEstablish dedicated human resources/units, such as data stewards & managers, and engage libraries.\n\n\n\n\n\n\n\nBest practice\n\n\n\n\n\nTU Delft Data Stewardship project and Data Champions initiative, CNRS DDOR\n\n\n\n\n\nProvide infrastructure and material resources for OS\n\nProvide or work with a trusted repository\n\n\n\n\n\n\n\nBest practice\n\n\n\n\n\nRepository certification based on CoreTrustSeal, Nestor Seal DIN31644 or ISO16363 (see the EC’s expectations for trusted repositories in the Horizon Europe Annotated Model Grant Agreement, pp. 155-156), CNRS DDOR\n\n\n\n\nProvide digital services & tools (e.g., DMP tool; FAIR data management, anonymisation, analysis tools)\n\n\n\nProvide financial support for OS:\n\nCosts related to PIDs, such as DOIs, registration for all research outputs, including datasets.\nAPCs (excluding hybrid journals), transformative agreement costs.\n\nCosts associated with research data/software management.\n\nInvestments in national/regional OS initiatives, such as Diamond OA initiatives (if any).\n\n\n\nCreate other types of rewards\n\nCo-work chances with related OS groups and people.\n\nFree time (sabbatical time).\n\nGifts.\n\nSalary bonus."
   },
   {
     "objectID": "materials.html",
