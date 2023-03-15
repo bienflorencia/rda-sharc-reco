@@ -16,7 +16,7 @@ The first section (A) guides researchers on practices they should adopt to maxim
 A. Recognition at the individual level (researcher / student / technician).  
 B. Recommendations to institutions (research performing organisations).  
 C. Recommendations to funders.  
-D. Recommendations to publishers.  
+[D. Recommendations to publishers](/publishers)
 E. Recommendations to government policy makers.  
 
 
