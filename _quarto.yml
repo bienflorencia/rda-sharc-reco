@@ -17,7 +17,6 @@ website:
     contents:
       - href: intro.qmd
         text: Intro
-        text: Level
       - href: individual.qmd
         text: (A) Individual
       - href: institutions.qmd
