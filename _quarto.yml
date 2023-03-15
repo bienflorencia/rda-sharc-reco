@@ -3,10 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "Course Title"
+  title: 'Reco-SHARC'
   sidebar:
     background: primary
-    # logo: "images/logo.png"
+    # logo: 'images/logo.png'
     pinned: true
     align: center
     tools:
@@ -21,7 +21,7 @@ website:
         text: Schedule
       - href: materials.qmd
         text: Materials
-      - href: https://github.com/Pakillo/quarto-course-website-template/discussions
+      - href: https://github.com/bienflorencia/rda-sharc-reco/discussions
         text: Forum
 
 format:
