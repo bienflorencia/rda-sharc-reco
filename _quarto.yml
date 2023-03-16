@@ -2,33 +2,41 @@ project:
   type: website
   output-dir: docs
 
+# website:
+#   title: 'Reco-SHARC'
+#   sidebar:
+#     background: primary
+#     # logo: 'images/logo.png'
+#     pinned: true
+#     align: center
+#     tools:
+#       - icon: github
+#         href: https://github.com/bienflorencia/rda-sharc-reco
+#         text: GitHub
+#     style: docked
+#     contents:
+#       - href: index.qmd
+#         text: Intro
+#       - href: individual.qmd
+#         text: (A) Individual
+#       - href: institutions.qmd
+#         text: (B) Institutions
+#       - href: funders.qmd
+#         text: (C) Funders
+#       - href: publishers.qmd
+#         text: (D) Publishers
+#       - href: policy-makers.qmd
+#         text: (E) Government policy makers
+#       - href: https://github.com/bienflorencia/rda-sharc-reco/discussions
+#         text: Contribute
+
 website:
-  title: 'Reco-SHARC'
-  sidebar:
-    background: primary
-    # logo: 'images/logo.png'
-    pinned: true
-    align: center
-    tools:
-      - icon: github
-        href: https://github.com/bienflorencia/rda-sharc-reco
-        text: GitHub
-    style: docked
-    contents:
+  title: "rda-sharc-reco"
+  navbar:
+    left:
       - href: index.qmd
-        text: Intro
-      - href: individual.qmd
-        text: (A) Individual
-      - href: institutions.qmd
-        text: (B) Institutions
-      - href: funders.qmd
-        text: (C) Funders
-      - href: publishers.qmd
-        text: (D) Publishers
-      - href: policy-makers.qmd
-        text: (E) Government policy makers
-      - href: https://github.com/bienflorencia/rda-sharc-reco/discussions
-        text: Contribute
+        text: Home
+      - individuals.qmd
 
 format:
   html:
