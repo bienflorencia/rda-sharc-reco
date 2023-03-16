@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: 'Reco-SHARC'
+  title: 'SHARC'
   sidebar:
     background: primary
     logo: 'images/logo.png'
@@ -17,6 +17,8 @@ website:
     contents:
       - href: index.qmd
         text: Intro
+      - href: 
+        text: "LEVELS:"
       - href: individual.qmd
         text: (A) Individual
       - href: institutions.qmd
@@ -36,5 +38,5 @@ format:
     # css: styles.css
     toc: true
 
-# execute:
-#  freeze: auto
+execute:
+  freeze: auto
