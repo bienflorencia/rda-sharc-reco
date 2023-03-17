@@ -9,8 +9,8 @@ website:
   repo-url: https://github.com/bienflorencia/rda-sharc-reco
 
   page-footer:
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    left: "&copy; CC-BY [SHARC IG](https://www.rd-alliance.org/groups/sharing-rewards-and-credit-sharc-ig), 2023"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)"
+    left: "&copy; CC-BY [SHARC IG](https://www.rd-alliance.org/groups/sharing-rewards-and-credit-sharc-ig) (2023)"
     background: "#D9E3E4"
 
   sidebar:
@@ -32,7 +32,7 @@ website:
       - href: index.qmd
         text: Intro
       - href:
-        text: 'LEVELS:'
+        text: 'LEVELS'
       - href: individual.qmd
         text: (A) Individual
       - href: institutions.qmd
@@ -50,7 +50,6 @@ format:
   html:
     theme:
       light: [cosmo, theme.scss] # from https://github.com/sta210-s22/website/blob/main/_quarto.yml
-      dark: [cosmo, theme-dark.scss]
     code-copy: true
     code-overflow: wrap
     toc: true
