@@ -1,4 +1,23 @@
 ---
-title: "Recommendations to funders"
+title: 'Recommendations to funders'
 ---
+
+## Adopt formal policies requiring/strongly encouraging OS activities
+
+## Adopt relevant frameworks and initiatives related to responsible research assessment 
+
+**Suggestions**: [RoRI Working Paper 'The changing role of funders in responsible research assessment' (2020)](https://rori.figshare.com/articles/report/The_changing_role_of_funders_in_responsible_research_assessment_progress_obstacles_and_the_way_ahead/13227914) | [Statement of transforming research assessment] | [Coalition for Advancing Research Assessment](https://coara.eu/) | 
+
+## Monitor the compliance for open science implementation and make it transparent to relevant stakeholders 
+
+## Recognise well-documented, FAIR and open digital outputs as first-class contributions to the scientific record during the project lifecycle
+
+## Create calls financing OS driven activities and calls financing re-use of data
+
+## Target systematically part of the budget to open science activities
+
+## Ensure that enough funding be dedicated to appropriate resources for staff and open science infrastructure devoted to the development of shared data platforms 
+i.e., with standardisation, quality control and analysis tools services that will enable real-time use of data within a project collaboration, and future reuse by all.
+
+**Examples**: [A 'data sharing trust' model for rapid, collaborative science](https://doi.org/10.1016/j.cell.2021.01.006) | [LifeWatch ERIC services](https://www.lifewatch.eu/thematic-services/)
 
