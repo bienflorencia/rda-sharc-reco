@@ -3,7 +3,7 @@ title: '(A)'
 subtitle: 'Recognition at the individual level'
 ---
 
-## Be aware of the existing national/institutional policies/agreements relevant to your research situation (in your institution, country, or region).  
+## Be aware of the existing national/institutional policies/agreements relevant to your research situation (in your institution, country, or region)  
 
 **Examples**: [National policies](https://docs.google.com/document/d/1AF2ObsXG2G8dsUHqJuRH-rE8zLHVZw8Q/edit?usp=sharing&ouid=103813503649602464757&rtpof=true&sd=true)
 
@@ -13,27 +13,27 @@ subtitle: 'Recognition at the individual level'
 
 ## Maximise your visibility citation out of your open science work
 
-### 1. Pre-requisite on digital presence: 
+1. Pre-requisite on digital presence: 
 
-  - Maximise as much as possible your digital presence using PID for you and for all your outputs (ex/ ORCID, DOI or other identifier for OA publications / OA datasets/ Open source software.  **More information**: [Parsec Digital Presence checklist](https://zenodo.org/record/7071677#.Y-9Ms3bMK5c) | [Unesco](https://www.unesco.org/en/open-science/receive-credit-all-your-contributions-science).
+  - Maximise as much as possible your digital presence using PID for you and for all your outputs (ex/ ORCID, DOI or other identifier for OA publications / OA datasets/ Open source software.  **Example**: [Parsec Digital Presence checklist](https://zenodo.org/record/7071677#.Y-9Ms3bMK5c) | [Unesco](https://www.unesco.org/en/open-science/receive-credit-all-your-contributions-science).
   - Update your cv & reporting activities with your OS activites.  
 
-### 2. Make your data & outputs citable
+2. Make your data & outputs citable
 
 -   Include citation elements for research data/software you created in the References section of your paper. To support indexing and reuse:   
     -   Use American Psychological Association (APA) style.  
     -   Include a persistent identifier (DOI), preferred, or URL.  
     -   Use labels/bracketed descriptions (e.g., [Dataset], [Software], [Collection], [ComputationalNotebook]).  
--   Include a data/software availability statement in your paper that describes where and how your data are available, and how to cite them if possible. Refer to templates for detailed information.  **More information**: [AGU](https://data.agu.org/resources/availability-citation-checklist-for-authors)
+-   Include a data/software availability statement in your paper that describes where and how your data are available, and how to cite them if possible. Refer to templates for detailed information.  **Example**: [AGU](https://data.agu.org/resources/availability-citation-checklist-for-authors)
 
-### 3. Acknowledge OS contributorship
+3. Acknowledge OS contributorship
 
-  - Recognise all kind of contributorship early in the projects. **More information**: [Acknowledging Contributors - The Turing Way](https://the-turing-way.netlify.app/community-handbook/acknowledgement.html)  
+  - Recognise all kind of contributorship early in the projects. **Example**: [Acknowledging Contributors - The Turing Way](https://the-turing-way.netlify.app/community-handbook/acknowledgement.html)  
 -   Use the CRediT taxonomy:
     -   Allocate the terms appropriately to your own contribution and to contributors within research outputs.  
-    -   Advocate that your institution and any publications you're submitting to acknowledge and adopt the taxonomy. **More information**: [Implementing CRediT](https://credit.niso.org/implementing-credit/)  
+    -   Advocate that your institution and any publications you're submitting to acknowledge and adopt the taxonomy. **Example**: [Implementing CRediT](https://credit.niso.org/implementing-credit/)  
 
-### 4. Cite or acknowledge other's OS activities using DOis or other PIDs
+4. Cite or acknowledge other's OS activities using DOis or other PIDs
 
 -   Include data citations for all research data you used in the References section of your paper.  
 -   Acknowledge any OS tool you may use , e.g. with their identifier or 'How to cite' statement (if any). **More information**: [RDA WG](https://www.rd-alliance.org/groups/national-pid-strategies-wg)  
@@ -43,12 +43,12 @@ subtitle: 'Recognition at the individual level'
 -   Apply to specific funds for OS activities if any.  
 -   Apply to OS prize/awards if any.
 -   Anticipate an OS budget in your research funding applications.  
-**Examples**: [Award/prizes](https://docs.google.com/spreadsheets/d/1jwY8Xx58OHF2LVMcPs80R9ioULS_cuIDOoj7QhI7OIM/edit?usp=sharing) 
+**Examples**: [Compilation of existent award/prizes](https://docs.google.com/spreadsheets/d/1jwY8Xx58OHF2LVMcPs80R9ioULS_cuIDOoj7QhI7OIM/edit?usp=sharing) 
 
 ## Get symbolic reward
 
 -   Apply for OS certificates/OS ambassador/OS badge schemes.  
 -   Apply for training badges.  
 -   Join OS acknowledging opportunities to gain visibility/reputation.  
-**Examples**: [Symbolic rewards](https://docs.google.com/spreadsheets/d/1jwY8Xx58OHF2LVMcPs80R9ioULS_cuIDOoj7QhI7OIM/edit?usp=sharing)  
+**Examples**: [Compilation of existent symbolic rewards](https://docs.google.com/spreadsheets/d/1jwY8Xx58OHF2LVMcPs80R9ioULS_cuIDOoj7QhI7OIM/edit?usp=sharing)  
 
