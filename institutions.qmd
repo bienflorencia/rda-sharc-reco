@@ -1,93 +1,49 @@
 ---
-title: "Recommendations to institutions"
+title: 'Recommendations to institutions'
 ---
 
-### - Adopt formal policies requiring/strongly encouraging OS activities.  
+## Adopt formal policies requiring/strongly encouraging OS activities.  
 
-  - Institutional prerequisites to enable the practise of OS:
-    - mandate deposit of ALL research outputs (e.g., publications, datasets, code) in the institutional or other compliant repository to be publicly available under an open license (no later than the time of an associated publication, as much as possible), in case of legitimate constraints - ‘dark’* deposit with open metadata.
-(\*) *A 'dark' deposit (or restricted deposit) is a work in a repository whose full text stays hidden from the public (not OA). However, metadata associated with these deposits is publicly accessible so that authors’ scholarly records are discoverable*  
-    - mandate for a DMP/software management plan for all research projects, which the staff/postgraduate students are involved in.  
-    - require to manage research data in line with the FAIR principles.  
-    - ensure that all publications (co)-authored by the staff/postgraduate students contain Data Availability Statements.  
-    - encourage that the staff/postgraduate students retain sufficient IP rights to comply with the OA requirements.  
-    
-::: {.callout-caution collapse="true"}
-## Examples of Institutional rights-retention policies
+-   Institutional prerequisites to enable the practise of OS:
+    -   Mandate deposit of ALL research outputs (e.g., publications, datasets, code) in the institutional or other compliant repository to be publicly available under an open license (no later than the time of an associated publication, as much as possible), in case of legitimate constraints - *dark*[^*] deposit with open metadata.
+    -   Mandate for a DMP/software management plan for all research projects, which the staff/postgraduate students are involved in.  
+    -   Require to manage research data in line with the FAIR principles.  
+    -   Ensure that all publications (co)-authored by the staff/postgraduate students contain Data Availability Statements.  
+    -   Encourage that the staff/postgraduate students retain sufficient IP rights to comply with the OA requirements. **Examples**: Institutional rights-retention policies [Harvard University](https://osc.hul.harvard.edu/policies/) | [University of Edinburgh](https://www.ed.ac.uk/information-services/about/policies-and-regulations/research-publications)  
+-   Develop and implement rewarding policies:
+    -   Boost appreciation of the researchers with good RDM & OS practices with well-documented, FAIR and open digital outputs, in their annual reviews by including OS activities (such as those described in introduction) into the institutional research evaluation scheme.    
+    -   Consider/create performance indicators (quantitative and/or qualitative) in general as well as disciplinary data-level metrics for crediting data sharing in the evaluation schemes. **Examples**: Best Practices [EC Open Science Career Assessment Matrix (OS-CAM)](https://op.europa.eu/en/publication-detail/-/publication/47a3a330-c9cb-11e7-8e69-01aa75ed71a1/language-en) | [TU DELFT Open Science programme](https://www.tudelft.nl/open-science) | [Utrecht University policy on Recognition and Rewards](https://www.uu.nl/en/research/open-science/tracks/recognition-and-rewards) | [BIH QUEST programme](https://www.bihealth.org/en/translation/innovation-enabler/quest-center)
+-   Promote that non-OA (closed) outputs not be reported for performance evaluation procedures. **Examples**: Best Practices [CNRS policy](https://www.science-ouverte.cnrs.fr/wp-content/uploads/2019/11/CNRS_Roadmap_Open_Science_18nov2019.pdf)
+  -   Create data champions schemes.  
+  -   Create Open Science stamp/badge/label in a PhD Degree Certificate.
+**Examples**: [Compilation of Visibility cases](https://docs.google.com/spreadsheets/d/1jwY8Xx58OHF2LVMcPs80R9ioULS_cuIDOoj7QhI7OIM/edit?usp=sharing)
 
-[Harvard University](https://osc.hul.harvard.edu/policies/), [University of Edinburgh](https://www.ed.ac.uk/information-services/about/policies-and-regulations/research-publications)
-
-:::
-
-  - Develop and implement rewarding policies:
-    - boost appreciation of the researchers with good RDM & OS practices with well-documented, FAIR and open digital outputs, in their annual reviews by including OS activities (such as those described in introduction) into the institutional research evaluation scheme.    
-    - consider/create performance indicators (quantitative and/or qualitative) in general as well as disciplinary data-level metrics for crediting data sharing in the evaluation schemes.  
-
-::: {.callout-caution collapse="true"}
-## Best practices examples
-
-[EC Open Science Career Assessment Matrix (OS-CAM)](https://op.europa.eu/en/publication-detail/-/publication/47a3a330-c9cb-11e7-8e69-01aa75ed71a1/language-en), [TU DELFT Open Science programme](https://www.tudelft.nl/open-science), [Utrecht University policy on Recognition and Rewards](https://www.uu.nl/en/research/open-science/tracks/recognition-and-rewards), [BIH QUEST programme](https://www.bihealth.org/en/translation/innovation-enabler/quest-center)
-
-:::
-
-  - promote that non-OA (closed) outputs not be reported for performance evaluation procedures 
-
-::: {.callout-caution collapse="true"}
-## Best practices examples
-
-[CNRS policy](https://www.science-ouverte.cnrs.fr/wp-content/uploads/2019/11/CNRS_Roadmap_Open_Science_18nov2019.pdf)
-:::
-
-  - Create data champions schemes.  
-  - Create Open Science stamp/badge/label in a PhD Degree Certificate?	
-
-::: {.callout-caution collapse="true"}
-## Examples
-
-[Visibility](https://docs.google.com/spreadsheets/d/1jwY8Xx58OHF2LVMcPs80R9ioULS_cuIDOoj7QhI7OIM/edit?usp=sharing)
+## Provide OS capacity building support:
+-   Provide OS courses (as part of the annual mandatory training for research staff  and mandatory subjects for postgraduate students). **Examples**: [Compilation of training resources](https://docs.google.com/spreadsheets/d/11YgQ6Shk1F1mLOOG1n8JAmPDTZqtDKTsEdjCqGzGbu8/edit?usp=sharing) | [UNESCO's index](https://www.unesco.org/en/open-science/capacity-building-index)   
+-   Organise institutional working groups, workshops.  
+-   Provide digital training materials, newsletters.  
+-   Establish dedicated human resources/units,  such as data stewards & managers, and  engage libraries. **Examples**: Best practices [TU Delft Data Stewardship project and Data Champions initiative](https://doi.org/10.1629/uksg.484) | [CNRS DDOR](https://www.science-ouverte.cnrs.fr/en/open-research-data-department/ )
 :::
 
 
-### - Provide OS capacity building support:
-  - Provide OS courses (as part of the annual mandatory training for research staff  and mandatory subjects for postgraduate students).   
-  - Organise institutional working groups, workshops.  
-  - Provide digital training materials, newsletters.  
-
-::: {.callout-caution collapse="true"}
-## Examples
-
-[Best practices & resources  training](https://docs.google.com/spreadsheets/d/11YgQ6Shk1F1mLOOG1n8JAmPDTZqtDKTsEdjCqGzGbu8/edit?usp=sharing), [UNESCO's index](https://www.unesco.org/en/open-science/capacity-building-index)
+## Provide infrastructure and material resources for OS
+-   Provide or work with a trusted repository. **Examples**: Best practices [Repository certification based on CoreTrustSeal, Nestor Seal DIN31644 or ISO16363 (see the EC's expectations for trusted repositories in the Horizon Europe Annotated Model Grant Agreement, pp. 155-156)](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/aga_en.pdf) | [CNRS DDOR](https://www.science-ouverte.cnrs.fr/en/open-research-data-department/ )
 :::
 
-  - Establish dedicated human resources/units,  such as data stewards & managers, and  engage libraries.  
+-   Provide digital services &  tools (e.g., DMP tool; FAIR data management, anonymisation, analysis tools)
 
-::: {.callout-caution collapse="true"}
-## Best practice
+## Provide financial support for OS
 
-[TU Delft Data Stewardship project and Data Champions initiative](https://doi.org/10.1629/uksg.484), [CNRS DDOR](https://www.science-ouverte.cnrs.fr/en/open-research-data-department/ )
-:::
+-   Costs related to PIDs, such as DOIs, registration for all research outputs, including datasets.
+-   APCs (excluding hybrid journals), transformative agreement costs.  
+-   Costs associated with research data/software management.  
+-   Investments in national/regional OS initiatives, such as Diamond OA initiatives (if any).  
 
+## Create other types of rewards
 
-### - Provide infrastructure and material resources for OS
-  - Provide or work with a trusted repository 
+-   Co-work chances with related OS groups and people.  
+-   Free time (sabbatical time).  
+-   Gifts.  
+-   Salary bonus.  
 
-::: {.callout-caution collapse="true"}
-## Best practice
-
-[Repository certification based on CoreTrustSeal, Nestor Seal DIN31644 or ISO16363 (see the EC’s expectations for trusted repositories in the Horizon Europe Annotated Model Grant Agreement, pp. 155-156)](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/aga_en.pdf), [CNRS DDOR](https://www.science-ouverte.cnrs.fr/en/open-research-data-department/ )
-:::
-
-  - Provide digital services &  tools (e.g., DMP tool; FAIR data management, anonymisation, analysis tools)
-
-### - Provide financial support for OS:
-  - Costs related to PIDs, such as DOIs, registration for all research outputs, including datasets.
-  - APCs (excluding hybrid journals), transformative agreement costs.  
-  - Costs associated with research data/software management.  
-  - Investments in national/regional OS initiatives, such as Diamond OA initiatives (if any).  
-
-### - Create other types of rewards
-
-  - Co-work chances with related OS groups and people.  
-  - Free time (sabbatical time).  
-  - Gifts.  
-  - Salary bonus.  
+[^*]: A 'dark' deposit (or restricted deposit) is a work in a repository whose full text stays hidden from the public (not OA). However, metadata associated with these deposits is publicly accessible so that authors' scholarly records are discoverable
