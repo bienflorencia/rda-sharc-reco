@@ -1,11 +1,12 @@
 ---
-title: 'Reward/incentive Guidance working document'
+title: 'SHARC IG'
+subtitle: 'Guidance about how to best recognise Open Science (OS) activities or to promote recognition, at various levels'
 ---
 
 ::: {.callout-important}
 ## Important
 
-Be aware that this is a **draft** document under review.
+Be aware that this is a **draft** working document.
 :::
 
 

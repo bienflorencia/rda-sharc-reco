@@ -3,7 +3,7 @@ title: "Recognition at the individual level"
 ---
 
 
-###-   Be aware of the existing national/institutional policies/agreements relevant to your research situation (in your institution, country, region…).  
+### Be aware of the existing national/institutional policies/agreements relevant to your research situation (in your institution, country, region…).  
 
 
 ::: {.callout-caution collapse="true"}
@@ -14,7 +14,7 @@ title: "Recognition at the individual level"
 :::
 
 	
-###-   Be aware of OS training sessions and resources provided in your institution or community
+### Be aware of OS training sessions and resources provided in your institution or community
 
 ::: {.callout-caution collapse="true"}
 ## Examples
@@ -23,7 +23,7 @@ title: "Recognition at the individual level"
 [UNESCO's index](https://www.unesco.org/en/open-science/capacity-building-index)
 :::
 
-###-   Maximise your visibility citation out of your open science work
+### Maximise your visibility citation out of your open science work
 
 #### 1. Pre-requisite on digital presence: 
 
@@ -57,7 +57,7 @@ title: "Recognition at the individual level"
 -   Acknowledge any OS tool you may use , e.g. with their  identifier or "How to cite" statement (if any).  
 **More information**: [RDA WG](https://www.rd-alliance.org/groups/national-pid-strategies-wg)
 
-###-   Get financial reward or support
+### Get financial reward or support
 
 -   Apply to specific funds for OS activities if any  
 -   Apply to OS prize/awards if any  
@@ -71,7 +71,7 @@ title: "Recognition at the individual level"
 
 -   Anticipate an OS budget in your research funding applications  
 
-###-   Get symbolic reward
+### Get symbolic reward
 
   - Apply for OS certificates/OS ambassador/OS badge schemes
   - Apply for training badges
