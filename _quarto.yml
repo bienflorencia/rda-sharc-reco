@@ -5,14 +5,13 @@ project:
 website:
   page-navigation: true
   title: 'SHARC'
-  site-url: 'https://bienflorencia.github.io/rda-sharc-reco' 
-  repo-url: https://github.com/bienflorencia/rda-sharc-reco 
-  repo-actions: [edit, issue]
-  
+  site-url: 'https://bienflorencia.github.io/rda-sharc-reco'
+  repo-url: https://github.com/bienflorencia/rda-sharc-reco
+
   page-footer:
-    right: "This page is built with and [Quarto](https://quarto.org/)."
-    left: "&copy; CC-By SHARC, 2023"
-    
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "&copy; CC-BY [SHARC IG](https://www.rd-alliance.org/groups/sharing-rewards-and-credit-sharc-ig), {year}"
+
   sidebar:
     logo: 'images/logo.png'
     pinned: true
@@ -24,15 +23,15 @@ website:
       - icon: github
         href: https://github.com/bienflorencia/rda-sharc-reco
         text: 'GitHub'
-      
+
     style: docked
     search: true
     collapse-level: 1
     contents:
       - href: index.qmd
         text: Intro
-      - href: 
-        text: 'LEVELS:'
+      - href:
+        text: '**LEVELS:**'
       - href: individual.qmd
         text: (A) Individual
       - href: institutions.qmd
@@ -51,7 +50,7 @@ website:
 #     theme: yeti
 #     # css: styles.css
 #     toc: true
-# 
+#
 # execute:
 #   freeze: auto
 
