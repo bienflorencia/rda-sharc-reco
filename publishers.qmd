@@ -1,5 +1,21 @@
 ---
-title: "Recommendations to publishers"
+title: 'Recommendations to publishers'
 ---
 
+## Require that authors include systematically their ORCIDs in all research outputs
+ 
+## Adopt the CRediT taxonomy
+**More information**: [Implementing CRediT](https://credit.niso.org/implementing-credit/) | [Research Artifact Citation](https://wiki.esipfed.org/Research_Artifact_Citation)
 
+## Adopt the Open Science badges initiative
+
+**More information**: [Center for Open Science Badges](https://www.cos.io/initiatives/badges)
+ 
+## Find ways to recognise peer-reviews related work
+
+## Encourage OA publishing in all LMICs[^1] by revising the criteria for publishing fees and adjust it using meaningful indicators
+
+**For instance**: To the national Gross domestic expenditure on R&D (GERD) and not only to the country GDP (e.g. Uruguay is considered high income country although science funding is  [0.48% of total GDP in 2019](https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS))
+
+
+[^1]: Low- and Middle-income Countries [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups)
