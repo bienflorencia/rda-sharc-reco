@@ -1,6 +1,5 @@
 ---
-title: '(A)'
-subtitle: 'Recognition at the individual level'
+title: 'Recognition at the individual level'
 ---
 
 ## Be aware of the existing national/institutional policies/agreements relevant to your research situation (in your institution, country, or region)  
@@ -15,8 +14,8 @@ subtitle: 'Recognition at the individual level'
 
 1. Pre-requisite on digital presence: 
 
-  - Maximise as much as possible your digital presence using PID for you and for all your outputs (ex/ ORCID, DOI or other identifier for OA publications / OA datasets/ Open source software.  **Example**: [Parsec Digital Presence checklist](https://zenodo.org/record/7071677#.Y-9Ms3bMK5c) | [Unesco](https://www.unesco.org/en/open-science/receive-credit-all-your-contributions-science).
-  - Update your cv & reporting activities with your OS activites.  
+-   Maximise as much as possible your digital presence using PID for you and for all your outputs (ex/ ORCID, DOI or other identifier for OA publications / OA datasets/ Open source software.  **Example**: [Parsec Digital Presence checklist](https://zenodo.org/record/7071677#.Y-9Ms3bMK5c) | [Unesco](https://www.unesco.org/en/open-science/receive-credit-all-your-contributions-science).
+-   Update your cv & reporting activities with your OS activites.  
 
 2. Make your data & outputs citable
 

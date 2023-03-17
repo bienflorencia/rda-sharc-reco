@@ -1,12 +1,12 @@
 ---
-title: 'SHARC IG'
-subtitle: 'Guidance about how to best recognise Open Science (OS) activities or to promote recognition, at various levels'
+title: 'Guidance about how to best recognise Open Science (OS) activities or to promote recognition, at various levels'
+subtitle: 'Sharing Rewards and Credit (SHARC) IG'
 ---
 
 ::: {.callout-important}
 ## Important
 
-Be aware that this is a **draft** working document.
+Be aware that this is a **working document**. Want to contribute? 
 :::
 
 
@@ -33,9 +33,9 @@ E. [Recommendations to government policy makers](/policy-makers)
 
 ## Some inspiring quotes
 
-"The key to success greatly depends on changing research culture, not just researcher behaviour." C. Neylon.  
+'The key to success greatly depends on changing research culture, not just researcher behaviour.' C. Neylon.  
 
-"Many small people, in small places, doing small things can change the world." Eduardo Galeano.  
+'Many *small* people, in small places, doing small things can change the world.' Eduardo Galeano.  
 
 [The '3.5% rule': How a small minority can change the world](https://www.bbc.com/future/article/20190513-it-only-takes-35-of-people-to-change-the-world)
 
