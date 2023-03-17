@@ -1,1 +1,1 @@
-Sitemap: https://github.com/bienflorencia/rda-sharc-reco/sitemap.xml
+Sitemap: https://bienflorencia.github.io/rda-sharc-reco/sitemap.xml
