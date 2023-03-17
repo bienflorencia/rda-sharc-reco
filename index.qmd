@@ -6,7 +6,13 @@ subtitle: 'Sharing Rewards and Credit (SHARC) IG'
 ::: {.callout-important}
 ## Important
 
-Be aware that this is a **working document**. Want to contribute? 
+Be aware that this is a **working document**. 
+:::
+
+::: {.callout-note}
+## Whant to contribute?
+
+Help us improve this document by [sharing with us your suggestions](https://github.com/bienflorencia/rda-sharc-reco/discussions).
 :::
 
 
