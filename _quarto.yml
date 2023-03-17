@@ -3,22 +3,36 @@ project:
   output-dir: docs
 
 website:
+  page-navigation: true
   title: 'SHARC'
+  site-url: 'https://bienflorencia.github.io/rda-sharc-reco' 
+  repo-url: https://github.com/bienflorencia/rda-sharc-reco 
+  repo-actions: [edit, issue]
+  
+  page-footer:
+    right: "This page is built with and [Quarto](https://quarto.org/)."
+    left: "&copy; CC-By SHARC, 2023"
+    
   sidebar:
-    background: primary
     logo: 'images/logo.png'
     pinned: true
     align: center
     tools:
+      - icon: globe
+        href: https://www.rd-alliance.org/groups/sharing-rewards-and-credit-sharc-ig
+        text: 'SHARC IG'
       - icon: github
         href: https://github.com/bienflorencia/rda-sharc-reco
-        text: GitHub
+        text: 'GitHub'
+      
     style: docked
+    search: true
+    collapse-level: 1
     contents:
       - href: index.qmd
         text: Intro
       - href: 
-        text: "LEVELS:"
+        text: 'LEVELS:'
       - href: individual.qmd
         text: (A) Individual
       - href: institutions.qmd
@@ -32,11 +46,21 @@ website:
       - href: https://github.com/bienflorencia/rda-sharc-reco/discussions
         text: Contribute
 
+# format:
+#   html:
+#     theme: yeti
+#     # css: styles.css
+#     toc: true
+# 
+# execute:
+#   freeze: auto
+
 format:
   html:
-    theme: yeti
-    # css: styles.css
+    theme:
+      light: [cosmo, theme.scss] # from https://github.com/sta210-s22/website/blob/main/_quarto.yml
+      dark: [cosmo, theme-dark.scss]
+    code-copy: true
+    code-overflow: wrap
     toc: true
 
-execute:
-  freeze: auto
