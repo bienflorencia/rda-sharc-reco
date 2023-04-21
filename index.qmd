@@ -10,7 +10,7 @@ Be aware that this is a **working document**.
 :::
 
 ::: {.callout-note}
-## Whant to contribute?
+## Want to contribute?
 
 Help us improve this document by [sharing with us your suggestions](https://github.com/bienflorencia/rda-sharc-reco/discussions).
 :::
