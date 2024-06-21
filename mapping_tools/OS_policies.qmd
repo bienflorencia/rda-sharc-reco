@@ -1,0 +1,35 @@
+---
+title: "OS Policies"
+---
+
+```{r}
+#| message: false
+#| echo: false
+
+library(reactable)
+library(tidyverse)
+
+OS_policies <- read_csv('OS_policies.csv') %>% 
+  janitor::clean_names() %>% rename(geographic_scope = country_region_international) %>% 
+  mutate(geographic_scope = str_trim(geographic_scope)) %>% 
+  mutate(across(1:2, ~str_squish(str_trim(.)))) 
+
+reactable(OS_policies %>% set_names(~ str_to_title(.) %>%
+                  str_replace_all('_', ' ')) %>% 
+            rename(URL=Url,
+                   `Institution/Agency`=`Institution agency`), 
+          resizable = TRUE,
+          defaultPageSize = 60,
+          wrap = TRUE,
+          outlined = TRUE,
+          striped = TRUE, searchable = TRUE,
+          defaultColDef = colDef(minWidth = 100),
+          columns = list(
+            URL = colDef(cell = function(value) 
+              { htmltools::tags$a(href = value, target = "_blank", value)
+              })
+  )
+)
+```
+
+

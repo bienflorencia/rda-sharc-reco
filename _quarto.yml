@@ -30,21 +30,49 @@ website:
     collapse-level: 1
     contents:
       - href: index.qmd
-        text: Intro
-      - href:
-        text: 'LEVELS'
-      - href: individual.qmd
-        text: (A) Individual
-      - href: institutions.qmd
-        text: (B) Institutions
-      - href: funders.qmd
-        text: (C) Funders
-      - href: publishers.qmd
-        text: (D) Publishers
-      - href: policy-makers.qmd
-        text: (E) Government policy makers
-      - href: https://github.com/bienflorencia/rda-sharc-reco/discussions
-        text: Contribute
+        text: Home
+      - href: introduction.qmd
+        text: Introduction
+      - href: methodology.qmd
+        text: Methodology
+      - section: recommendations.qmd
+        contents:
+          - href: research_performing_organisations.qmd
+            text: Research performing organisations
+          - href: funders.qmd
+            text: Funders
+          - href: publishers.qmd
+            text: Publishers
+          - href: government-policy-makers.qmd
+            text: Government policy makers
+          - href: researchers.qmd
+            text: Researchers
+      - href: concluding_remarks.qmd
+        text: 'Concluding remarks'
+      - section: ---
+      - section: 'Recommendation tables'
+        contents:
+          - href: tables/table1.qmd
+          - href: tables/table2.qmd
+          - href: tables/table3.qmd
+          - href: tables/table4.qmd
+          - href: tables/table5.qmd
+      - section: ---
+      - href: terminology.qmd
+        text: 'Terminology'
+      - section: 'Mapping tools'
+        contents:
+          - href: mapping_tools/OS_policies.qmd
+          - section: 'Rewarding tools'
+            contents:
+            - href: mapping_tools/os_award_prizes.qmd
+            - href: mapping_tools/os_funds.qmd
+            - href: mapping_tools/os_badges_certificates_tokens.qmd
+            - href: mapping_tools/os_champions.qmd
+      - href: acknowledgements.qmd
+        text: Acknowledgements
+      - href: references.qmd
+        text: References
 
 format:
   html:
@@ -52,4 +80,4 @@ format:
       light: [cosmo, theme.scss] # from https://github.com/sta210-s22/website/blob/main/_quarto.yml
     code-copy: true
     code-overflow: wrap
-    toc: true
+    toc: false

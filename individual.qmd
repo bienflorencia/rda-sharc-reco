@@ -1,5 +1,6 @@
 ---
 title: 'Recognition at the individual level'
+bibliography: references.bib
 ---
 
 ## Be aware of the existing national/institutional policies/agreements relevant to your research situation (in your institution, country, or region)  

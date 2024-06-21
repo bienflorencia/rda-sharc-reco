@@ -1,0 +1,36 @@
+---
+title: 'Methodology'
+bibliography: references.bib
+---
+
+## Our values
+
+Before making precise proposals, the ethical framework and the values of science have to be underlined. In the 20th century, the CUDOS norms were characteristics of the science ethos according to Merton [@merton_1942; @merton_1973]: Communalism, Universalism, Disinterestedness, Organised Scepticism. However, this system that isolated the scientific community from the rest of the society does not correspond anymore with the more inclusive science and society landscape. The scientific integrity principles and responsibilities, as set out for example in the @second_world_conference_on_research_integrity_singapore_2010, the UNESCO recommendation on Science and Scientific researchers [@unesco_2017], the UNESCO Recommendation on OS [@unesco_2021] and the European Code of Conduct for Research Integrity revised in 2023 [@allea_2023] mandatory in all EU funded projects, constitute representative international efforts to encourage the development of unified policies with the long-range goal of fostering greater integrity in research worldwide. As these general rules address facets of the research practices and tend to be taken into account both in education and in research assessment criteria, they constitute a general framework for all recommendations below. 
+
+## Preparatory step: Identifying the needs and research focus areas
+
+The first step of our work was a Birds of a Feather (BoF) session held during Research Data Alliance Plenary 9 (@fig-1, step 1). The session focused on the hurdles involved in opening up data and other research outputs in the research process, as well as on rewarding schemes and the extent of their use or absence regarding sharing data and other outputs. The discussions spurred i) the creation of the RDA-SHARC interest group that first focused on the design of a human readable FAIR assessment tool and ii) the establishment of a core evolving sub-working group gathering active members developing guidance and recommendations. 
+
+As part of this core group (namely, the authors of the present work), we further refined the needs related to recognition throughout i) additional interactive working sessions at RDA plenaries 11, 12, 13, 14, 15, 17, 19 and 20, ii) regular teleconference meetings, emails and asynchronous exchanges (e.g., via Google Doc). 
+
+## Agreeing on terms and concepts: terminology
+
+The preparatory step led us to develop a terminology with regards to rewarding in science as a common understanding of the terms and concepts mapping this landscape (@fig-1, step 2). We identified all related terms we could think of as to research recognition schemes and categorised them as different types of possible rewards and reward mechanisms (see our [**Terminology**](terminology.html)). 
+
+From the literature, we agreed that types of rewarding can range from intangible reputational rewards such as recognising the contribution made by collaborators through acknowledgments and citations [@hicks_2012], to co-authorship [@latour_1979] and other tangible rewards (e.g., funds, prizes, career advancement, hiring, and patents) [@haeussler_2014; @nelson_2016; @shibayama_2021]. Opportunities of future collaboration were also reported as possible rewards for sharing [@haeussler_2014; @shibayama_2021]. 
+
+## Developing mapping tools
+
+To further facilitate the use of our recommendations, as a third step (@fig-1) we built two mapping tables that compiled existing policies and rewards related-tools: 
+
+- the first one, [OS Policies](mapping_tools/OS_policies), gathers brief descriptions and links to the main OS policies across many countries, pointing to rewards related information whenever specified; 
+
+- the second table, Rewarding tools ([OS Awards/Prizes](mapping_tools/os_award_prizes), [OS Funds](mapping_tools/os_funds), [OS Badges/Certificates/Tokens](mapping_tools/os_badges_certificates_tokens), [OS Champions](mapping_tools/os_champions)), displays examples of existing rewarding tools that were brought to our attention along the various discussions conveyed within SHARC's meetings, RDA plenaries and as a result of the SHARC OS survey (described in the next section).
+
+## Developing recommendations
+
+The fourth step focused on developing actionable recommendations based on the gaps identified during the SHARC IG working sessions and meetings (@fig-1, step 4). These recommendations aimed to i) guide researchers and scientists in the existing rewarding landscape as to how to get some credit in practice, and ii) raise awareness among a number of actors who are part of the research assessment system on which rewarding mechanisms (so far missing) to provide and implement to make the whole system work. 
+
+To that aim, a survey was first designed to identify perceptions and expectations of various research communities regarding how OS activities are taken into consideration and rewarded; this survey was sent out to the RDA community at large and various other networks related to members of our core group. Details of the survey methodology and results are available in @grattarola_2024. We then developed the set of recommendations as a multiple-step process based on the results of the survey with back-and-forth exchanges between members of the RDA-SHARC core group and participants in the RDA-SHARC sessions. 
+
+![Flowchart of developing the RDA-SHARC IG Recommendations on Open Science rewards and incentives to various stakeholders. The process included 4 steps, namely: 1) identifying the needs and research focus areas, 2) agreeing on terms and concepts (developing rewards-related terminology), 3) mapping existing policies and rewarding initiatives, 4) developing a set of recommendations as a single cycle series of steps involving SHARC IG meetings, a global survey and feedback from RDA sessions. ](/images/figure1.png){#fig-1 width=80% .lightbox}

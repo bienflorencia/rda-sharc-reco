@@ -1,21 +1,14 @@
 ---
-title: 'Recommendations to publishers'
+title: 'Publishers'
+bibliography: references.bib
 ---
 
-## Require that authors include systematically their ORCIDs in all research outputs
- 
-## Adopt the CRediT taxonomy
-**More information**: [Implementing CRediT](https://credit.niso.org/implementing-credit/) | [Research Artifact Citation](https://wiki.esipfed.org/Research_Artifact_Citation)
+@piwowar_2008 investigated the data sharing policies of 70 journals and found that researchers more frequently share data when journals have such a policy, and that the probability of sharing data correlates positively with the strength of the policy [@mongeon_2017]. Publishers' policies are therefore key for OS implementation. Over time many have established sharing policies in line with recommendations to research funders and institutions, yet there is a need for journals to provide clearer instructions to authors, reviewers and staff to encourage OS and foster rewarding schemes for it.
 
-## Adopt the Open Science badges initiative
+Journals should facilitate researcher-authors' compliance with good OS practices as a prerequisite to credit. This entails implementing a number of connected measures: first, establishing a clear mandate to use unique PIDs for both individuals and their research outputs to enable their digital connectivity to the scholarly record and the attribution of their work; second, making a clear request that all data and software related to a published manuscript adhere to the FAIR principles, along with providing guidance on how to do so and where to deposit these resources to enable reuse; third, providing support for preprints would also help facilitate open access; and fourth, requiring the full and proper citation of all data and software, whether created, used or reused from others' research, in all publications, as it is indispensable for receiving credit. 
 
-**More information**: [Center for Open Science Badges](https://www.cos.io/initiatives/badges)
- 
-## Find ways to recognise peer-reviews related work
+Requesting FAIR data and software implies that editorial staff and reviewers are able to verify proper citation of data and software and ensure that all supplementary resources are openly available, free of charge, even if the article is not. For this, journals should assign specific editors, such as 'data editors', to assess the quality and FAIRness of data and software (e.g., The American Naturalist). By supporting the FAIR principles in their policies, in combination with clear instructions on how authors should comply, will aid the journals in making strides towards more automated reviews.
 
-## Encourage OA publishing in all LMICs[^1] by revising the criteria for publishing fees and adjust it using meaningful indicators
+The peer-reviewing activity is essential to the scientific method, and publishers should endeavour to recognise its importance and promote transparency through open peer-reviewing models. This can be an additional way to expand OS and improve responsible research assessment. Journals should systematically implement existing tools, such as the CRediT taxonomy, to enable clarifying one's contribution/roles in research works, and systematically use existing guidelines such as the TOP Factor, which can assess their openness and transparency.
 
-**For instance**: To the national Gross domestic expenditure on R&D (GERD) and not only to the country GDP (e.g. Uruguay is considered high income country although science funding is  [0.48% of total GDP in 2019](https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS))
-
-
-[^1]: Low- and Middle-income Countries [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups)
+Finally, to foster greater inclusivity it is crucial to reconsider the current calibration of OA publishing fees, which are based solely on a country's GDP for Low- and Middle-Income Countries (LMICs). This approach unfairly impacts countries like for instance Uruguay, where GDP is not considered to be low while their R&D funding is; In such cases, it is imperative to employ more meaningful economic indicators  to mitigate the exacerbation of disparities in global knowledge access and to calibrate more equitable costs. Programs such as Research4Life provide one mechanism for use by publishers to try  to calibrate costs. More concrete examples are provided in Table 3. 

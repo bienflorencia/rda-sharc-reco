@@ -1,0 +1,37 @@
+---
+title: "Recommendations to Publishers"
+---
+
+```{r}
+#| message: false
+#| echo: false
+
+library(reactable)
+library(tidyverse)
+
+table <- read_csv('table3_recos_to_publishers.csv') %>% 
+  janitor::clean_names() %>% 
+  mutate(across(1:2, ~ str_squish(str_trim(str_to_sentence(.))))) %>% 
+  mutate(across(1:2, ~ str_replace_all(., ' os | Os |Os ', ' OS '))) %>% 
+  mutate(across(1:2, ~ str_trim(.)))
+
+
+reactable(table %>% set_names(~ str_to_sentence(.) %>%
+                  str_replace_all('_', ' ')) %>% 
+            mutate(Url = str_to_lower(Url)) %>% 
+            rename(URL=Url), 
+          resizable = TRUE,
+          defaultPageSize = 60,
+          wrap = TRUE,
+          outlined = TRUE,
+          striped = TRUE, searchable = TRUE,
+          defaultColDef = colDef(minWidth = 100),
+          columns = list(
+            URL = colDef(cell = function(value) 
+              { htmltools::tags$a(href = value, 
+                                  target = "_blank", value)
+              })
+            )
+)
+```
+

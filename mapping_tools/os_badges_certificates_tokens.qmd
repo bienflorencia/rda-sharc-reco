@@ -1,0 +1,33 @@
+---
+title: "OS Badges/Certificates/Tokens"
+---
+
+```{r}
+#| message: false
+#| echo: false
+
+library(reactable)
+library(tidyverse)
+
+os_award_prizes <- read_csv('os_badges_certificates_tokens.csv') %>% 
+  janitor::clean_names() %>% 
+  mutate(across(1:2, ~str_squish(str_trim(.)))) 
+
+reactable(os_award_prizes %>% set_names(~ str_to_title(.) %>%
+                  str_replace_all('_', ' ')) %>% 
+            rename(URL=Link, 
+                   `Notes (N/S: not specified)`=`Notes n s not specified`), 
+          resizable = TRUE,
+          defaultPageSize = 60,
+          wrap = TRUE,
+          outlined = TRUE,
+          striped = TRUE, searchable = TRUE,
+          defaultColDef = colDef(minWidth = 100),
+          columns = list(
+            URL = colDef(cell = function(value) 
+              { htmltools::tags$a(href = value, target = "_blank", value)
+              })
+  )
+)
+```
+

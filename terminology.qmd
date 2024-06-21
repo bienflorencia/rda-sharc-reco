@@ -1,0 +1,54 @@
+---
+title: 'Terminology'
+---
+
+## Types of rewards in Research	
+
+```{r}
+#| message: false
+#| echo: false
+
+library(reactable)
+library(tidyverse)
+
+types_of_reward <- read_csv('terminology_types_of_reward.csv') %>% 
+  janitor::clean_names() %>% 
+  mutate(across(1:3, ~ 
+                    str_replace_all(str_squish(str_trim(str_to_sentence(.))),
+                  'os', 'OS'))) 
+
+reactable(types_of_reward %>% set_names(~ str_to_title(.) %>%
+                                            str_replace_all('_', ' ')), 
+          resizable = TRUE,
+          defaultPageSize = 60,
+          wrap = TRUE,
+          outlined = TRUE,
+          striped = TRUE, searchable = TRUE,
+          defaultColDef = colDef(minWidth = 100))
+```
+
+## Mechanisms/tools to provide a reward for OS
+
+```{r}
+#| message: false
+#| echo: false
+
+library(reactable)
+library(tidyverse)
+
+mechanisms_of_reward <- read_csv('terminology_mechanisms_of_reward.csv') %>% 
+    janitor::clean_names() %>% 
+    mutate(across(1:3, ~ 
+                      str_replace_all(str_squish(str_trim(str_to_sentence(.))), 
+                  'os', 'OS')))
+  
+
+reactable(mechanisms_of_reward %>% set_names(~ str_to_title(.) %>%
+                                            str_replace_all('_', ' ')), 
+          resizable = TRUE,
+          defaultPageSize = 60,
+          wrap = TRUE,
+          outlined = TRUE,
+          striped = TRUE, searchable = TRUE,
+          defaultColDef = colDef(minWidth = 100))
+```

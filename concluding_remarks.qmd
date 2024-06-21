@@ -1,0 +1,9 @@
+---
+title: 'Concluding remarks'
+---
+
+Opening science today necessitates integrating transformative changes in research culture, workflows, governance structures and assessment mechanisms, and involves extending these changes across all scientific communities. Achieving this goal is not feasible through the efforts of an individual researcher without support from other stakeholders in the research ecosystem and global coordination of their collective actions. These stakeholders include research performing and funding organisations, publishers and government policy makers.  
+
+Given the historical organisation of science, the transition to OS can be challenging, burdensome, and costly for researchers who generate scientific outputs. Identifying mechanisms to facilitate and reward those at the forefront of this transition is essential for accelerating the entire process. This study has practical implications, providing actionable recommendations that embrace a holistic approach to guide the development and implementation of rewarding schemes at various levels - where they exist, or to assist in their creation where they are needed.  
+
+It is important to note that incentivising OS practices, such as data sharing, might lead some researchers to engage in strategic sharing to accumulate rewards, effectively 'gaming' the system rather than focusing on the production of new, high-quality knowledge. Therefore, to prevent a similar ‘publish or perish’ dynamic within OS practices - where rewards may drive efforts focused more on quantity than on substantive contributions - it is crucial that any OS reward and incentive schemes incorporate stringent eligibility criteria for rewards, based on rigorous quality assessments of outputs and  governed by principles of research integrity and responsible conduct.  
