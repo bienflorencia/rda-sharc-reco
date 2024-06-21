@@ -23,6 +23,8 @@ jobs:
           r-version: '4.4.0'
       - run: Rscript -e "install.packages('rmarkdown')"
       - run: Rscript -e "install.packages('knitr')"
+      - run: Rscript -e "install.packages('reactable')"
+      - run: Rscript -e "install.packages('tidyverse')"
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
