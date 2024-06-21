@@ -1,0 +1,43 @@
+---
+title: 'Abbreviations'
+---
+
+| Abbreviation | Definition | 
+|---|---|
+| AGA | Annotated Grant Agreement |
+| AGU | American Geophysical Union |
+| ALLEA | All European Academies |
+| ANR | Agence Nationale de Recherche (French National Research Agency) |
+| BoF | Birds of a Feather |
+| CARE | Collective benefit, Authority to control, Responsibility, Ethics |
+| ChatGPT | Chat Generative Pre-trained Transformer |
+| CLACSO | Consejo Latinoamericano de Ciencias Sociales  |
+| CoARA | Coalition for Advancing Research Assessment |
+| CODATA | Committee On Data |
+| CRediT | Contributor Roles Taxonomy |
+| CUDOS | Communality, Universalism, Disinterestedness and Organised Scepticism |
+| DDOR | Direction des données ouvertes de la recherche (DDOR) du CNRS |
+| DMP | Data Management Plan |
+| DEIA | Diversity, Equity, Inclusion, and Accessibility |
+| DOI | Digital Object Identifier |
+| DORA | Declaration On Research Assessment |
+| FAIR | Findable, Accessible, Interoperable, Reusable |
+| GERD | Gross domestic Expenditure on R&D |
+| LMIC | Low- or Middle-Income Country |
+| NIH | National Institutes of Health  |
+| OA | Open Access |
+| ORCID | Open Researcher and Contributor ID |
+| OS | Open Science |
+| OS-CAM | Open Science Career Assessment Matrix |
+| OSTP | Office of Science and Technology Policy |
+| PID | Persistent IDentifier  |
+| RAiD | Research Activity Identifier |
+| RDA | Research Data Alliance |
+| RRA | Responsible Research Assessment |
+| SciELO | Scientific Electronic Library Online |
+| SCOSS | Sustainability Coalition for Open Science Services  |
+| SHARC | SHAring Rewards and Credit |
+| TOP | Transparency Openness Promotion |
+| UKRN | UK Reproducibility Network  |
+| UNESCO | United Nations Educational, Scientific and Cultural Organisation |
+

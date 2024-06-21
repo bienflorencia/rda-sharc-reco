@@ -69,6 +69,8 @@ website:
             - href: mapping_tools/os_funds.qmd
             - href: mapping_tools/os_badges_certificates_tokens.qmd
             - href: mapping_tools/os_champions.qmd
+      - href: abbreviations.qmd
+        text: Abbreviations
       - href: acknowledgements.qmd
         text: Acknowledgements
       - href: references.qmd
