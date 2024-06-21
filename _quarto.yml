@@ -73,8 +73,8 @@ website:
         text: Abbreviations
       - href: acknowledgements.qmd
         text: Acknowledgements
-      - href: references.qmd
-        text: References
+      # - href: references.qmd
+      #   text: References
 
 format:
   html:
