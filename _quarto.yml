@@ -38,15 +38,15 @@ website:
       - section: recommendations.qmd
         contents:
           - href: research_performing_organisations.qmd
-            text: Research performing organisations
+            text: To research performing organisations
           - href: funders.qmd
-            text: Funders
+            text: To funders
           - href: publishers.qmd
-            text: Publishers
+            text: To publishers
           - href: government-policy-makers.qmd
-            text: Government policy makers
+            text: To government policy makers
           - href: researchers.qmd
-            text: Researchers
+            text: To researchers
       - href: concluding_remarks.qmd
         text: 'Concluding remarks'
       # - section: ---
