@@ -36,7 +36,7 @@ table <- read_csv('tables/table4_recos_to_researchers.csv') %>%
 
 reactable(table %>% set_names(~ str_to_sentence(.) %>%
                   str_replace_all('_', ' ')) %>% 
-            mutate(Url = str_to_lower(Url)) %>% 
+            # mutate(Url = str_to_lower(Url)) %>% 
             rename(URL=Url), 
           resizable = TRUE,
           defaultPageSize = 60,
