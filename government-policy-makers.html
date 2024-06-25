@@ -87,6 +87,13 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/core-js-2.5.3/shim.min.js"></script>
+<script src="site_libs/react-17.0.0/react.min.js"></script>
+<script src="site_libs/react-17.0.0/react-dom.min.js"></script>
+<script src="site_libs/reactwidget-1.0.0/react-tools.js"></script>
+<script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<link href="site_libs/reactable-0.4.4/reactable.css" rel="stylesheet">
+<script src="site_libs/reactable-binding-0.4.4/reactable.js"></script>
 
 
 </head>
@@ -198,51 +205,6 @@ div.csl-indent {
       <span class="sidebar-item-text sidebar-link text-start">
  <span class="menu-text">---</span></span>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
- <span class="menu-text">Recommendation tables</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tables/table1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recommendations to Research performing organisations</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tables/table2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recommendations to Funders</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tables/table3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recommendations to Publishers</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tables/table4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recommendations to Government policy makers</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tables/table5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recommendations to Researchers</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">---</span></span>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./terminology.html" class="sidebar-item-text sidebar-link">
@@ -251,13 +213,13 @@ div.csl-indent {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
  <span class="menu-text">Mapping tools</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./mapping_tools/OS_policies.html" class="sidebar-item-text sidebar-link">
@@ -266,13 +228,13 @@ div.csl-indent {
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
  <span class="menu-text">Rewarding tools</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./mapping_tools/os_award_prizes.html" class="sidebar-item-text sidebar-link">
@@ -348,9 +310,19 @@ div.csl-indent {
 <p>Second, compiling and documenting use cases via dedicated websites would highlight real-life mechanisms that have been implemented or piloted. Given the substantial diversity among institutions and policies across various domains and contexts, it is clear that rewarding different scientific activities is not a ‘one size fits all’ effort. Showcasing use cases would accelerate the implementation of systems that work effectively across most domains. At the same time, it would accommodate specific mechanisms where necessary. Additionally, it would help avoid repeating mistakes or duplicating efforts.</p>
 <p>Third, systematic and rigorous approaches to analyse OS activities, particularly reward mechanisms, are needed. The French national OS plan, for example, has launched a specific call for research proposals in 2023 to study OS activities, including reward systems. To achieve a comprehensive understanding, we recommend prioritising and encouraging funding for projects dedicated to the in-depth analysis of these mechanisms or providing direct funding for such research initiatives.</p>
 <p>Finally, it is often the case that various practices are established and tools or mechanisms are tested, but this is frequently done in silos, without coordination between institutions. At the national level, such coordination can be organised and highlighted. Thus, facilitating networking and sharing of practices across institutions at the national level is highly recommended. Further, despite international initiatives such as RDA and CoARA that are pivotal for harmonising assessment methods and mechanisms, there is still a notable lack of dedicated efforts to standardise the assessment of rewards for OS activities at the national level across various institutions and disciplines. Addressing this gap should be a priority to advance OS on a global scale.</p>
+<p><br></p>
+<section id="table-4-recommendations-to-government-policy-makers" class="level3">
+<h3 class="anchored" data-anchor-id="table-4-recommendations-to-government-policy-makers">Table 4: Recommendations to Government policy makers</h3>
+<div class="cell">
+<div class="cell-output-display">
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-a3d9fef9d6696544ce73" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-a3d9fef9d6696544ce73">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Recommendation scope":["Promoting national overarching policies on OS",null,null,null,null,null,null,null,null,null,null,null],"Recommended action":["Develop overarching policies requiring/strongly encouraging OS activities at all levels, including an increase in OS awareness among decision-makers","Ensure that the national policies will allow to:","* Harmonise practices","* Provide a budget","* Monitor implementation across disciplines and institutions","* Include rewarding mechanisms as key elements of OS policies (positive aspects rather than a 'burden' and requirements only)","- Create observatories of practices that showcase the rewarding mechanisms in place or being piloted in real life;","- Provide funding to compare/value and harmonise mechanisms and to study deeply such mechanisms;","- Facilitate networking and sharing of practices across institutions at the national level;","- Harmonise the way mechanisms are assessed;","- Participate in international comparisons and organise involvement in international initiatives (e.g. SCOSS, CoARA, RDA);","#Name?"],"Examples":["SHARC list of examples of government-level OS policies",null,null,null,null,null,null,null,null,null,null,null],"URL":["mapping_tools/os_policies",null,null,null,null,null,null,null,null,null,null,null]},"columns":[{"id":"Recommendation scope","name":"Recommendation scope","type":"character","minWidth":100},{"id":"Recommended action","name":"Recommended action","type":"character","minWidth":200},{"id":"Examples","name":"Examples","type":"character","minWidth":100},{"id":"URL","name":"URL","type":"character","minWidth":100,"cell":[{"name":"a","attribs":{"href":"mapping_tools/os_policies","target":"_blank"},"children":["mapping_tools/os_policies"]},{"name":"a","attribs":{"href":null,"target":"_blank"},"children":["NA"]},{"name":"a","attribs":{"href":null,"target":"_blank"},"children":["NA"]},{"name":"a","attribs":{"href":null,"target":"_blank"},"children":["NA"]},{"name":"a","attribs":{"href":null,"target":"_blank"},"children":["NA"]},{"name":"a","attribs":{"href":null,"target":"_blank"},"children":["NA"]},{"name":"a","attribs":{"href":null,"target":"_blank"},"children":["NA"]},{"name":"a","attribs":{"href":null,"target":"_blank"},"children":["NA"]},{"name":"a","attribs":{"href":null,"target":"_blank"},"children":["NA"]},{"name":"a","attribs":{"href":null,"target":"_blank"},"children":["NA"]},{"name":"a","attribs":{"href":null,"target":"_blank"},"children":["NA"]},{"name":"a","attribs":{"href":null,"target":"_blank"},"children":["NA"]}]}],"resizable":true,"searchable":true,"defaultPageSize":60,"outlined":true,"striped":true,"dataKey":"141842fb3ce62ae158917950c4694836"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 
 
 
+</section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-mesr_2021" class="csl-entry" role="listitem">

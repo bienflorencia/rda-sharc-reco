@@ -87,6 +87,13 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/core-js-2.5.3/shim.min.js"></script>
+<script src="site_libs/react-17.0.0/react.min.js"></script>
+<script src="site_libs/react-17.0.0/react-dom.min.js"></script>
+<script src="site_libs/reactwidget-1.0.0/react-tools.js"></script>
+<script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<link href="site_libs/reactable-0.4.4/reactable.css" rel="stylesheet">
+<script src="site_libs/reactable-binding-0.4.4/reactable.js"></script>
 
 
 </head>
@@ -198,51 +205,6 @@ div.csl-indent {
       <span class="sidebar-item-text sidebar-link text-start">
  <span class="menu-text">---</span></span>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
- <span class="menu-text">Recommendation tables</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tables/table1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recommendations to Research performing organisations</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tables/table2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recommendations to Funders</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tables/table3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recommendations to Publishers</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tables/table4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recommendations to Government policy makers</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tables/table5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recommendations to Researchers</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">---</span></span>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./terminology.html" class="sidebar-item-text sidebar-link">
@@ -251,13 +213,13 @@ div.csl-indent {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
  <span class="menu-text">Mapping tools</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./mapping_tools/OS_policies.html" class="sidebar-item-text sidebar-link">
@@ -266,13 +228,13 @@ div.csl-indent {
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
  <span class="menu-text">Rewarding tools</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./mapping_tools/os_award_prizes.html" class="sidebar-item-text sidebar-link">
@@ -346,9 +308,19 @@ div.csl-indent {
 <p>Requesting FAIR data and software implies that editorial staff and reviewers are able to verify proper citation of data and software and ensure that all supplementary resources are openly available, free of charge, even if the article is not. For this, journals should assign specific editors, such as ‘data editors’, to assess the quality and FAIRness of data and software (e.g., The American Naturalist). By supporting the FAIR principles in their policies, in combination with clear instructions on how authors should comply, will aid the journals in making strides towards more automated reviews.</p>
 <p>The peer-reviewing activity is essential to the scientific method, and publishers should endeavour to recognise its importance and promote transparency through open peer-reviewing models. This can be an additional way to expand OS and improve responsible research assessment. Journals should systematically implement existing tools, such as the CRediT taxonomy, to enable clarifying one’s contribution/roles in research works, and systematically use existing guidelines such as the TOP Factor, which can assess their openness and transparency.</p>
 <p>Finally, to foster greater inclusivity it is crucial to reconsider the current calibration of OA publishing fees, which are based solely on a country’s GDP for Low- and Middle-Income Countries (LMICs). This approach unfairly impacts countries like for instance Uruguay, where GDP is not considered to be low while their R&amp;D funding is; In such cases, it is imperative to employ more meaningful economic indicators to mitigate the exacerbation of disparities in global knowledge access and to calibrate more equitable costs. Programs such as Research4Life provide one mechanism for use by publishers to try to calibrate costs. More concrete examples are provided in Table 3.</p>
+<p><br></p>
+<section id="table-3-recommendations-to-publishers" class="level3">
+<h3 class="anchored" data-anchor-id="table-3-recommendations-to-publishers">Table 3: Recommendations to Publishers</h3>
+<div class="cell">
+<div class="cell-output-display">
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-0f50d0cacd760c6b77bb" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-0f50d0cacd760c6b77bb">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Recommendation scope":["Unambiguous identification",null,"Findable data & software citation","Pre-printing",null,"Open peer-review","Recognising contributorship",null,"Encouraging OS activities",null,null,"Assessing openness",null,null,null],"Recommended action":["Make use of orcids mandatory in all research outputs","* Make the orcid search easier in the manuscript submission system","Require that authors cite data & software they produce and/or reuse in the method/reference section or in a data/software availability statement","Provide support for preprints to facilitate open access and open peer-review",null,"Foster discussion on the implementation of open peer-review models and the recognition of expert efforts in open peer-review","Adopt the credit taxonomy to enable the mention of OS activities as part of the contributors' research outputs",null,"Adopt the OS badges initiative to award badges based on preregistration/open data/open materials","Encourage oa publishing in all lmics by revising the criteria for publishing fees and adjusting them based on meaningful indicators (for instance, to the national gross domestic expenditure on r&d/gerd and not only to the country gdp)",null,"Assess journals for transparency and openness","* Start with assessing oa and use the top factor for more advanced assessment","Establish data and software review mechanisms where relevant","* Establish data editors that work with the publication stakeholders to assess quality and fairness of data/software"],"Examples":[null,null,"AGU's Data & Software Availability Statement","eLife's New Model","Peer Community in","Open Research Europe: Open Peer-Review Publishing Model","Implementing CRediT","ESIP Research Artefact Citation (see Activities / Large Spreadsheet of Research Artefacts)","CoS Badges initiative","Research and Development Expenditure (% of GDP)","Research4Life",null,"TOP factor",null,"Role of data editors in astronomy"],"URL":[null,null,"https://data.agu.org/resources/availability-citation-checklist-for-authors","https://elifesciences.org/inside-elife/741dbe4d/elife-s-new-model-submit-your-research","https://peercommunityin.org","https://open-research-europe.ec.europa.eu/about/","https://wiki.esipfed.org/research_artifact_citation","https://wiki.esipfed.org/research_artifact_citation","https://www.cos.io/initiatives/badges","https://data.worldbank.org/indicator/gb.xpd.rsdv.gd.zs","https://www.research4life.org/",null,"https://topfactor.org/",null,"https://www.csescienceeditor.org/article/the-roles-of-data-editors-in-astronomy/"]},"columns":[{"id":"Recommendation scope","name":"Recommendation scope","type":"character","minWidth":100},{"id":"Recommended action","name":"Recommended action","type":"character","minWidth":200},{"id":"Examples","name":"Examples","type":"character","minWidth":100},{"id":"URL","name":"URL","type":"character","minWidth":100,"cell":[{"name":"a","attribs":{"href":null,"target":"_blank"},"children":["NA"]},{"name":"a","attribs":{"href":null,"target":"_blank"},"children":["NA"]},{"name":"a","attribs":{"href":"https://data.agu.org/resources/availability-citation-checklist-for-authors","target":"_blank"},"children":["https://data.agu.org/resources/availability-citation-checklist-for-authors"]},{"name":"a","attribs":{"href":"https://elifesciences.org/inside-elife/741dbe4d/elife-s-new-model-submit-your-research","target":"_blank"},"children":["https://elifesciences.org/inside-elife/741dbe4d/elife-s-new-model-submit-your-research"]},{"name":"a","attribs":{"href":"https://peercommunityin.org","target":"_blank"},"children":["https://peercommunityin.org"]},{"name":"a","attribs":{"href":"https://open-research-europe.ec.europa.eu/about/","target":"_blank"},"children":["https://open-research-europe.ec.europa.eu/about/"]},{"name":"a","attribs":{"href":"https://wiki.esipfed.org/research_artifact_citation","target":"_blank"},"children":["https://wiki.esipfed.org/research_artifact_citation"]},{"name":"a","attribs":{"href":"https://wiki.esipfed.org/research_artifact_citation","target":"_blank"},"children":["https://wiki.esipfed.org/research_artifact_citation"]},{"name":"a","attribs":{"href":"https://www.cos.io/initiatives/badges","target":"_blank"},"children":["https://www.cos.io/initiatives/badges"]},{"name":"a","attribs":{"href":"https://data.worldbank.org/indicator/gb.xpd.rsdv.gd.zs","target":"_blank"},"children":["https://data.worldbank.org/indicator/gb.xpd.rsdv.gd.zs"]},{"name":"a","attribs":{"href":"https://www.research4life.org/","target":"_blank"},"children":["https://www.research4life.org/"]},{"name":"a","attribs":{"href":null,"target":"_blank"},"children":["NA"]},{"name":"a","attribs":{"href":"https://topfactor.org/","target":"_blank"},"children":["https://topfactor.org/"]},{"name":"a","attribs":{"href":null,"target":"_blank"},"children":["NA"]},{"name":"a","attribs":{"href":"https://www.csescienceeditor.org/article/the-roles-of-data-editors-in-astronomy/","target":"_blank"},"children":["https://www.csescienceeditor.org/article/the-roles-of-data-editors-in-astronomy/"]}]}],"resizable":true,"searchable":true,"defaultPageSize":60,"outlined":true,"striped":true,"dataKey":"57e405b7ab5b960e6a2ee0297b5b330d"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 
 
 
+</section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-mongeon_2017" class="csl-entry" role="listitem">
