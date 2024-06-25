@@ -10,3 +10,44 @@ Furthermore, OS practices expected by a policy should be monitored and rewarded,
 Capacity building is critical to implement OS policies. Improvements in OS capacity building should be made by incorporating OS education into research workflows (such as in curricula, training programs, and working groups), so as to become part of the culture. Infrastructures and material resources for OS such as providing digital services and tools should be facilitated by institutions (e.g., FAIR data management service, DMP tools, tools for anonymization, and guidance towards trusted repositories). Notably, OS practice should be facilitated and streamlined by services wherever relevant such as automated metadata completion via persistent identifiers and transfer and communication of copyrights and intellectual property rights should be retained to comply with OA and OS requirements.
 
 Another important aspect is the financial support for OS, including PID-related costs such as DOI registration for all research outputs such as datasets, costs associated with research data/software management, investments in national/regional OS initiatives such as Diamond OA. In order to support OS activities, it is important to include related costs in funding applications, create funding opportunities to work with relevant OS communities, and establish other incentives for OS activities. Various types of OS rewarding solutions need to be explored and implemented, ranging from awards, salary bonuses, champions, badging schemes, to additional free time (e.g., sabbaticals), depending on context. These should also be integrated and recognized as part of recruitment, promotion and tenure schemes (e.g., recognizing open access to research outputs). Token recognition systems (e.g. blockchain backed) are also emerging as a new opportunity to reward the contributions that academics make to the scientific ecosystem. Academics would be awarded token bounties for undertaking common but vital tasks such as peer review, committee work, and writing reports [@finke_2024]. These tokens would serve as a validated record of scientific contribution that could be used in the research evaluation scheme. This adds to already present citation mechanisms, including data, software, and other research outputs as recognition. 
+
+<br>
+
+### Table 1: Recommendations to Research performing organisations
+
+```{r}
+#| message: false
+#| echo: false
+
+library(reactable)
+library(tidyverse)
+
+table <- read_csv('tables/table1_recos_to_research_performing_organisations.csv') %>% 
+  janitor::clean_names() %>% 
+  mutate(across(1:2, ~ str_squish(str_trim(str_to_sentence(.))))) %>% 
+  mutate(across(1:3, ~ str_replace_all(., ' os | Os |Os ', ' OS '))) %>% 
+  mutate(across(1:3, ~ str_replace_all(., 'rra', 'RRA'))) %>% 
+  mutate(across(1:3, ~ str_replace_all(., 'coara', 'CoARA'))) %>% 
+  mutate(across(1:2, ~ str_trim(.)))
+
+
+reactable(table %>% set_names(~ str_to_sentence(.) %>%
+                  str_replace_all('_', ' ')) %>% 
+            mutate(Url = str_to_lower(Url)) %>% 
+            rename(URL=Url), 
+          resizable = TRUE,
+          defaultPageSize = 60,
+          wrap = TRUE,
+          outlined = TRUE,
+          striped = TRUE, searchable = TRUE,
+          defaultColDef = colDef(minWidth = 100),
+          columns = list(
+            URL = colDef(cell = function(value) 
+              { htmltools::tags$a(href = value, 
+                                  target = "_blank", value)
+              }),
+            `Recommended action` = colDef(minWidth = 200)
+            )
+)
+```
+

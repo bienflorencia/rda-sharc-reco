@@ -16,3 +16,45 @@ Second, compiling and documenting use cases via dedicated websites would highlig
 Third, systematic and rigorous approaches to analyse OS activities, particularly reward mechanisms, are needed. The French national OS plan, for example, has launched a specific call for research proposals in 2023 to study OS activities, including reward systems. To achieve a comprehensive understanding, we recommend prioritising and encouraging funding for projects dedicated to the in-depth analysis of these mechanisms or providing direct funding for such research initiatives.  
 
 Finally, it is often the case that various practices are established and tools or mechanisms are tested, but this is frequently done in silos, without coordination between institutions. At the national level, such coordination can be organised and highlighted. Thus, facilitating networking and sharing of practices across institutions at the national level is highly recommended. Further, despite international initiatives such as RDA and CoARA that are pivotal for harmonising assessment methods and mechanisms, there is still a notable lack of dedicated efforts to standardise the assessment of rewards for OS activities at the national level across various institutions and disciplines. Addressing this gap should be a priority to advance OS on a global scale.  
+
+
+<br>
+
+### Table 4: Recommendations to Government policy makers
+
+```{r}
+#| message: false
+#| echo: false
+
+library(reactable)
+library(tidyverse)
+
+table <- read_csv('tables/table4_recos_to_government_policy_makers.csv') %>% 
+  janitor::clean_names() %>% 
+  mutate(across(1:2, ~ str_squish(str_trim(str_to_sentence(.))))) %>% 
+  mutate(across(1:2, ~ str_replace_all(., ' os | Os |Os | os', ' OS '))) %>% 
+  mutate(across(1:2, ~ str_replace_all(., 'rda', 'RDA'))) %>% 
+  mutate(across(1:2, ~ str_replace_all(., 'doi', 'DOI'))) %>% 
+  mutate(across(1:3, ~ str_replace_all(., 'coara', 'CoARA'))) %>% 
+  mutate(across(1:3, ~ str_replace_all(., 'Scoss', 'SCOSS'))) %>% 
+  mutate(across(1:2, ~ str_trim(.)))
+
+reactable(table %>% set_names(~ str_to_sentence(.) %>%
+                  str_replace_all('_', ' ')) %>% 
+            mutate(Url = str_to_lower(Url)) %>% 
+            rename(URL=Url), 
+          resizable = TRUE,
+          defaultPageSize = 60,
+          wrap = TRUE,
+          outlined = TRUE,
+          striped = TRUE, searchable = TRUE,
+          defaultColDef = colDef(minWidth = 100),
+          columns = list(
+            URL = colDef(cell = function(value) 
+              { htmltools::tags$a(href = value, 
+                                  target = "_blank", value)
+              }),
+            `Recommended action` = colDef(minWidth = 200)
+            )
+)
+```

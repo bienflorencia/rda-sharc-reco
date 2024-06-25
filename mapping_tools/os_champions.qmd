@@ -1,6 +1,14 @@
 ---
 title: "OS Champions"
+page-layout: full
 ---
+
+::: {.callout-tip}
+## Tips
+
+ - You can resize columns by click-and-dragging the borders.
+ - You can search for content in the table in the top-right Search box.
+:::
 
 ```{r}
 #| message: false
@@ -16,7 +24,8 @@ os_award_prizes <- read_csv('os_champions.csv') %>%
 reactable(os_award_prizes %>% set_names(~ str_to_title(.) %>%
                   str_replace_all('_', ' ')) %>% 
             rename(URL=Link, 
-                   `Notes (N/S: not specified)`=`Notes n s not specified`), 
+                   `Notes (N/S: not specified)`=`Notes n s not specified`) %>% 
+            rename_with(., ~str_replace_all(., ' os ', ' OS ')), 
           resizable = TRUE,
           defaultPageSize = 60,
           wrap = TRUE,
@@ -26,7 +35,9 @@ reactable(os_award_prizes %>% set_names(~ str_to_title(.) %>%
           columns = list(
             URL = colDef(cell = function(value) 
               { htmltools::tags$a(href = value, target = "_blank", value)
-              })
+              }),
+            `Brief outline of OS activities rewarded` = colDef(minWidth = 200),
+            `For whom` = colDef(minWidth = 150)
   )
 )
 ```

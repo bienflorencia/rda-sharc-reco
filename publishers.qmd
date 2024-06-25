@@ -12,3 +12,44 @@ Requesting FAIR data and software implies that editorial staff and reviewers are
 The peer-reviewing activity is essential to the scientific method, and publishers should endeavour to recognise its importance and promote transparency through open peer-reviewing models. This can be an additional way to expand OS and improve responsible research assessment. Journals should systematically implement existing tools, such as the CRediT taxonomy, to enable clarifying one's contribution/roles in research works, and systematically use existing guidelines such as the TOP Factor, which can assess their openness and transparency.
 
 Finally, to foster greater inclusivity it is crucial to reconsider the current calibration of OA publishing fees, which are based solely on a country's GDP for Low- and Middle-Income Countries (LMICs). This approach unfairly impacts countries like for instance Uruguay, where GDP is not considered to be low while their R&D funding is; In such cases, it is imperative to employ more meaningful economic indicators  to mitigate the exacerbation of disparities in global knowledge access and to calibrate more equitable costs. Programs such as Research4Life provide one mechanism for use by publishers to try  to calibrate costs. More concrete examples are provided in Table 3. 
+
+
+<br>
+
+### Table 3: Recommendations to Publishers
+
+```{r}
+#| message: false
+#| echo: false
+
+library(reactable)
+library(tidyverse)
+
+table <- read_csv('tables/table3_recos_to_publishers.csv') %>% 
+  janitor::clean_names() %>% 
+  mutate(across(1:2, ~ str_squish(str_trim(str_to_sentence(.))))) %>% 
+  mutate(across(1:2, ~ str_replace_all(., ' os | Os |Os ', ' OS '))) %>% 
+  mutate(across(1:2, ~ str_trim(.)))
+
+
+reactable(table %>% set_names(~ str_to_sentence(.) %>%
+                  str_replace_all('_', ' ')) %>% 
+            mutate(Url = str_to_lower(Url)) %>% 
+            rename(URL=Url), 
+          resizable = TRUE,
+          defaultPageSize = 60,
+          wrap = TRUE,
+          outlined = TRUE,
+          striped = TRUE, searchable = TRUE,
+          defaultColDef = colDef(minWidth = 100),
+          columns = list(
+            URL = colDef(cell = function(value) 
+              { htmltools::tags$a(href = value, 
+                                  target = "_blank", value)
+              }),
+            `Recommended action` = colDef(minWidth = 200)
+            )
+)
+```
+
+

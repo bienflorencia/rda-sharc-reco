@@ -1,6 +1,14 @@
 ---
 title: "OS Policies"
+page-layout: full
 ---
+
+::: {.callout-tip}
+## Tips
+
+ - You can resize columns by click-and-dragging the borders.
+ - You can search for content in the table in the top-right Search box.
+:::
 
 ```{r}
 #| message: false
@@ -12,12 +20,14 @@ library(tidyverse)
 OS_policies <- read_csv('OS_policies.csv') %>% 
   janitor::clean_names() %>% rename(geographic_scope = country_region_international) %>% 
   mutate(geographic_scope = str_trim(geographic_scope)) %>% 
-  mutate(across(1:2, ~str_squish(str_trim(.)))) 
+  mutate(across(1:2, ~str_squish(str_trim(.)))) %>% 
+  rename(brief_outline_of_the_policy_specifying_the_OS_activities=brief_outline_of_the_policy_specifying_the_os_activities)
 
 reactable(OS_policies %>% set_names(~ str_to_title(.) %>%
                   str_replace_all('_', ' ')) %>% 
             rename(URL=Url,
-                   `Institution/Agency`=`Institution agency`), 
+                   `Institution/Agency`=`Institution agency`) %>% 
+            rename_with(., ~str_replace_all(., ' os ', ' OS ')), 
           resizable = TRUE,
           defaultPageSize = 60,
           wrap = TRUE,
@@ -26,9 +36,9 @@ reactable(OS_policies %>% set_names(~ str_to_title(.) %>%
           defaultColDef = colDef(minWidth = 100),
           columns = list(
             URL = colDef(cell = function(value) 
-              { htmltools::tags$a(href = value, target = "_blank", value)
-              })
-  )
+              { htmltools::tags$a(href = value, target = "_blank", value) }),
+            `Brief outline of the policy specifying the OS activities` = colDef(minWidth = 400)
+            )
 )
 ```
 

@@ -15,3 +15,40 @@ Finally, credit/recognition can also be obtained for research outputs that have 
 
 For examples on national and institutional OS plans, OS and FAIR awards, dedicated funds for OS, and training initiatives, please refer to our Rewarding tools ([OS Awards/Prizes](mapping_tools/os_award_prizes), [OS Funds](mapping_tools/os_funds), [OS Badges/Certificates/Tokens](mapping_tools/os_badges_certificates_tokens), [OS Champions](mapping_tools/os_champions)).
 
+
+<br>
+
+### Table 5: Recommendations to Researchers
+
+```{r}
+#| message: false
+#| echo: false
+
+library(reactable)
+library(tidyverse)
+
+table <- read_csv('tables/table4_recos_to_researchers.csv') %>% 
+  janitor::clean_names() %>% 
+  mutate(across(1:2, ~ str_squish(str_trim(str_to_sentence(.))))) %>% 
+  mutate(across(1:2, ~ str_replace_all(., ' os | Os |Os ', ' OS '))) %>% 
+  mutate(across(1:2, ~ str_trim(.)))
+
+reactable(table %>% set_names(~ str_to_sentence(.) %>%
+                  str_replace_all('_', ' ')) %>% 
+            mutate(Url = str_to_lower(Url)) %>% 
+            rename(URL=Url), 
+          resizable = TRUE,
+          defaultPageSize = 60,
+          wrap = TRUE,
+          outlined = TRUE,
+          striped = TRUE, searchable = TRUE,
+          defaultColDef = colDef(minWidth = 100),
+          columns = list(
+            URL = colDef(cell = function(value) 
+              { htmltools::tags$a(href = value, 
+                                  target = "_blank", value)
+              }),
+            `Recommended action` = colDef(minWidth = 200)
+            )
+)
+```

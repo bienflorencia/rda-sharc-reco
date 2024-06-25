@@ -12,3 +12,42 @@ Initiatives like the national PID strategies out of RDA [@brown_2022] are helpfu
 New approaches to funding OS need to be explored and implemented, where funding is allocated to support policies. These can be prizes celebrating OS aspects such as the 'DataWorks! Prize', developing 'OS champions', for instance, at Michael J. Fox Foundation (in the US), encouraging and allocating support for DMPs and data publishing like ANII (in Uruguay). Also, coordination is key as a number of funders are limited by how much they can allocate to OS versus some of the funders that are allocating more towards big initiatives and infrastructure projects. The decision regarding what to fund in OS is more often dependent on the funder's vision, mission, goals, and values.  
 
 Supporting OS requires certain commitments from funders beyond just infrastructure. Diversity, Equity, Inclusion, and Accessibility (DEIA) should be integrated into programs together with fostering team science, collaboration, and greater transparency, in line with the CARE principles (Russo Carroll, Garba and Figueroa-Rodriguez, 2020). These are key tenets of OS, but it is also important that the funders look at which principles and values are important to them and how they align with OS (e.g., supporting preprints and open access for the public good). These principles and values can be used as a compass to help with guiding the funders through a dynamic OS landscape. Funders should look internally too on how they dedicate staff time and resources to support OS (e.g., setting up teams and roles). 
+
+<br>
+
+### Table 2: Recommendations to Funders
+
+```{r}
+#| message: false
+#| echo: false
+
+library(reactable)
+library(tidyverse)
+
+table <- read_csv('tables/table2_recos_to_funders.csv') %>% 
+  janitor::clean_names() %>% 
+  mutate(across(1:2, ~ str_squish(str_trim(str_to_sentence(.))))) %>% 
+  mutate(across(1:2, ~ str_replace_all(., ' os | Os |Os ', ' OS '))) %>% 
+  mutate(across(1:2, ~ str_trim(.)))
+
+
+reactable(table %>% set_names(~ str_to_sentence(.) %>%
+                  str_replace_all('_', ' ')) %>% 
+            mutate(Url = str_to_lower(Url)) %>% 
+            rename(URL=Url), 
+          resizable = TRUE,
+          defaultPageSize = 60,
+          wrap = TRUE,
+          outlined = TRUE,
+          striped = TRUE, searchable = TRUE,
+          defaultColDef = colDef(minWidth = 100),
+          columns = list(
+            URL = colDef(cell = function(value) 
+              { htmltools::tags$a(href = value, 
+                                  target = "_blank", value)
+              }),
+            `Recommended action` = colDef(minWidth = 200)
+            )
+)
+```
+
