@@ -1,4 +1,4 @@
-﻿Recommendation scope,Recommended action,Examples,URL
+Recommendation scope,Recommended action,Examples,URL
 Raising awareness of OS policies,"Be aware of the existing and relevant institutional, countrywide, regional, and community research policies, including laws, regulations and agreements",SHARC list of examples of national and institutional OS policies ,mapping_tools/OS_policies
 Raising awareness of OS training,Be aware of OS training sessions and resources provided by institutions or communities,UNESCO OS Capacity Building Index,https://www.unesco.org/en/open-science/capacity-building-index
 ,,OS Loterre Thesaurus,https://skosmos.loterre.fr/TSO/es/
@@ -14,8 +14,7 @@ Recognising contributorship,Acknowledge OS contributorship,,
 ,* Specify all kind of contributorship early in the projects,The Turing Way project's Acknowledging Contributors,https://book.the-turing-way.org/community-handbook/acknowledgement.html
 ,* Use the CRediT taxonomy:,Implementing the CRediT Taxonomy,https://credit.niso.org/implementing-credit/
 ,- Allocate the terms appropriately to project contributorship and contributions to research outputs;,,
-,#NAME?,,
-,,,
+,- Advocate for institutional acknowledgement and adoption of the taxonomy for research outputs,,
 ,* Cite data and research outputs in Data Availability Statement and References sections of papers,,
 ,"* Acknowledge and cite OS tools used, e.g. with an identifier or 'How to cite' statement (if any)",,
 Raising awareness of OS costs,Be aware of how to include OS costs in all funding applications,Curation and Data Management Services,https://support.dataverse.harvard.edu/curation-services
