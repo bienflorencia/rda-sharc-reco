@@ -1,6 +1,7 @@
 ---
 title: 'Methodology'
 bibliography: references.bib
+page-layout: full
 ---
 
 ## Our values

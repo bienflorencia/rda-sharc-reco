@@ -1,6 +1,7 @@
 ---
 title: 'Recommendations on Open Science Rewards and Incentives '
 subtitle: 'Guidance for multiple stakeholders in Research'
+page-layout: full
 authors:
   - name: Laurence Mabile
     orcid: 0000-0002-7724-1721

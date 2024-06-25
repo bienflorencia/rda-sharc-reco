@@ -1,6 +1,7 @@
 ---
-title: 'Publishers'
+title: 'To publishers'
 bibliography: references.bib
+page-layout: full
 ---
 
 @piwowar_2008 investigated the data sharing policies of 70 journals and found that researchers more frequently share data when journals have such a policy, and that the probability of sharing data correlates positively with the strength of the policy [@mongeon_2017]. Publishers' policies are therefore key for OS implementation. Over time many have established sharing policies in line with recommendations to research funders and institutions, yet there is a need for journals to provide clearer instructions to authors, reviewers and staff to encourage OS and foster rewarding schemes for it.

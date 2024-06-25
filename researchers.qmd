@@ -1,6 +1,7 @@
 ---
-title: 'Researchers'
+title: 'To researchers'
 bibliography: references.bib
+page-layout: full
 ---
 
 At the individual level and in the current research ecosystem, getting some kind of reward from OS activities will result from several distinct mechanisms that people must be aware of. 

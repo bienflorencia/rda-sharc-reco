@@ -1,6 +1,7 @@
 ---
-title: 'Funders'
+title: 'To funders'
 bibliography: references.bib
+page-layout: full
 ---
 
 For funders to support OS, it is important that they develop policies that require, or at a minimum, encourage OS activities in their communities and integrate them into their proposal workflows. To develop these policies, funders should gain a better understanding of current open research practices and capabilities, by conducting landscape analyses, engaging with the OS community, leveraging expertise, and identifying initial steps (i.e. low hanging fruits) that can be taken to monitor and guide these activities. Mapping key stakeholders in OS would be prudent, to avoid being overwhelmed and to interface with the OS community via these stakeholders. For reference, the Aligning Science Across Parkinson's [@asap_2021] is an example of the more forward-looking funder policies.  

@@ -1,5 +1,6 @@
 ---
 title: 'Concluding remarks'
+page-layout: full
 ---
 
 Opening science today necessitates integrating transformative changes in research culture, workflows, governance structures and assessment mechanisms, and involves extending these changes across all scientific communities. Achieving this goal is not feasible through the efforts of an individual researcher without support from other stakeholders in the research ecosystem and global coordination of their collective actions. These stakeholders include research performing and funding organisations, publishers and government policy makers.  

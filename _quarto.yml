@@ -85,6 +85,6 @@ format:
     toc: false
     grid:
       sidebar-width: 300px
-      body-width: 1500px
+      body-width: 1000px
       margin-width: 0px
       gutter-width: 1.5rem

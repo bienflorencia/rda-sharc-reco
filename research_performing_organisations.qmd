@@ -1,6 +1,7 @@
 ---
-title: 'Research performing organisations'
+title: 'To research performing organisations'
 bibliography: references.bib
+page-layout: full
 ---
 
 To gain insight and learn how to support OS activities, institutions should first join RRA and OS related communities/initiatives (e.g., CoARA, RDA) and encourage their personnel to be active in them. Formal OS policies should be adopted and posted on institutional websites, ideally in a discoverable and usable format (e.g. human and machine readable), and communicated to the communities they serve. Important to these policy measures, research outputs should be deposited in community trusted repositories (e.g., institutionally supported repositories, CoreTrustSeal) and made publicly available and reusable under permissive licences. To make these outputs fully reusable, a data management plan (DMP) should be required for all research projects and FAIR principles should be applied as much as possible. In particular, all publications (co)-authored by researchers/staff and students should contain 'Data Availability Statements' and data citation references (which applies to other research outputs such as software). 

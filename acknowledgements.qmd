@@ -1,5 +1,6 @@
 ---
 title: 'Acknowledgements'
+page-layout: full
 ---
 
 Thanks to the contributors to initial phases of the present work:  

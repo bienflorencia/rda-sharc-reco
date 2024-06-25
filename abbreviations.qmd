@@ -1,5 +1,6 @@
 ---
 title: 'Abbreviations'
+page-layout: full
 ---
 
 | Abbreviation | Definition | 

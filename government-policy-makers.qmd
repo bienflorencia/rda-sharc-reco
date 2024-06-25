@@ -1,6 +1,7 @@
 ---
-title: 'Government policy makers'
+title: 'To government policy makers'
 bibliography: references.bib
+page-layout: full
 ---
 
 The governments' adoption and promotion of a national OS policy are an important driver for its implementation. It demonstrates political willingness and helps facilitate the harmonisation of practices across a variety of institutions and disciplines: giving common guidelines and a roadmap to all universities and research institutes facilitates a consistent uptake of OS across territory, institutes and disciplines. Some countries have been early in setting up a national OS strategy [@sveinsdottir_2021], and a few of them have included rewarding mechanisms such as France [@mesr_2021] and the Netherlands [@npos_2022]. In the French national OS plan, a number of measures are mentioned to make OS practices sustainable, among them the requirement for changes in the evaluation system. In the Dutch national OS strategy, a requirement for realising OS is to 'Make OS rewarding through incentives (Recognition & Rewards)'. 

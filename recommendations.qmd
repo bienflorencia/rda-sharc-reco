@@ -1,5 +1,6 @@
 ---
 title: 'Recommendations'
+page-layout: full
 ---
 
 ## Overview and discussion of the recommendations
