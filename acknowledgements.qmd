@@ -3,10 +3,10 @@ title: 'Acknowledgements'
 page-layout: full
 ---
 
-Thanks to the contributors to initial phases of the present work:  
+Thanks to the contributors to initial phases of the present work: 
 
 Romain David (ERINHA, FR), Alison Specht (University of Queensland, AU), Gabrielle Bertier (University Toulouse III, FR), Mohammed Yahia (INIST, FR), Louise Bezuidenhout (Data Archiving and Networked Services, DANS and Royal, Netherlands Academy of Arts and Sciences, NL), Michele de Rosa (2.-0 LCA consultants, DK), Laurent Dollé (Université Libre de Bruxelles, BE), Sofie Beckaert (University Gent, BE), and Elena Bravo (ISS, IT). 
 
-We also thank Anne-Sophie Archambeau, Anna Cohen Nabeiro, Jane Carpenter, Sophie Parmelon, and Fiona Murphy for their inputs.
+We also thank Anne-Sophie Archambeau, Jane Carpenter, Anna Cohen Nabeiro, Aurélie Delavaud, Fiona Murphy, Sophie Parmelon, Anne-Marie Tassé and Martina Zilioli for their inputs.
 
 Finally, we wish to acknowledge the fruitful comments from all the members of the RDA- SHARC interest group and all the attendants to the various SHARC working sessions held at RDA plenaries.
