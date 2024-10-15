@@ -1,5 +1,5 @@
 ﻿type,category,term
-TANGIBLE REWARDS,Open outputs-related,"authorship (e.g., research article, data, software, objects),"
+Tangible,Open outputs-related,"authorship (e.g., research article, data, software, objects),"
 ,,"contributorship (e.g., editorship, consortium contribution, data management...)"
 ,,citation
 ,,"acknowledgement (e.g., peer-review activity)"
@@ -14,7 +14,7 @@ TANGIBLE REWARDS,Open outputs-related,"authorship (e.g., research article, data,
 ,,job hiring / recruitment
 ,,"salary (e.g., human resources dedicated to open science)"
 ,,financial reward
-INTANGIBLE REWARDS,Personal perceptions,getting recognition
+Intangible,Personal perceptions,getting recognition
 ,,improving reputation
 ,,increasing merit
 ,,"pleasure/satisfaction (e.g., contributing to the knowledge commons and public goods)"

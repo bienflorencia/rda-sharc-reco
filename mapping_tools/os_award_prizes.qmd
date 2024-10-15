@@ -19,7 +19,7 @@ library(tidyverse)
 
 os_award_prizes <- read_csv('os_award_prizes.csv') %>% 
   janitor::clean_names() %>% 
-  mutate(across(1:2, ~str_squish(str_trim(.)))) 
+  mutate(across(1:6, ~str_squish(str_trim(.)))) 
 
 reactable(os_award_prizes %>% set_names(~ str_to_title(.) %>%
                   str_replace_all('_', ' ')) %>% 

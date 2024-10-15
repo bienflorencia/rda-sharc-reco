@@ -17,10 +17,10 @@ page-layout: full
 library(reactable)
 library(tidyverse)
 
-OS_policies <- read_csv('OS_policies.csv') %>% 
+OS_policies <- read_csv('os_policies.csv') %>% 
   janitor::clean_names() %>% rename(geographic_scope = country_region_international) %>% 
-  mutate(geographic_scope = str_trim(geographic_scope)) %>% 
-  mutate(across(1:2, ~str_squish(str_trim(.)))) %>% 
+  # mutate(geographic_scope = str_trim(geographic_scope)) %>% 
+  mutate(across(1:5, ~str_squish(str_trim(.)))) %>% 
   rename(brief_outline_of_the_policy_specifying_the_OS_activities=brief_outline_of_the_policy_specifying_the_os_activities)
 
 reactable(OS_policies %>% set_names(~ str_to_title(.) %>%
