@@ -24,6 +24,9 @@ website:
       - icon: github
         href: https://github.com/bienflorencia/rda-sharc-reco
         text: 'GitHub'
+      - icon: file-pdf
+        href: RDA_SHARC_recos.pdf
+        text: 'PDF'
 
     style: docked
     search: true
