@@ -23,7 +23,7 @@ os_award_prizes <- read_csv('os_award_prizes.csv') %>%
 
 reactable(os_award_prizes %>% set_names(~ str_to_title(.) %>%
                   str_replace_all('_', ' ')) %>% 
-            rename(URL=Link, 
+            rename(URL=Url, 
                    `Notes (N/S: not specified)`=`Notes n s not specified`,
                    `Brief outline of OS activities rewarded` = `Brief outline of os activities rewarded`,
                    `Initiative or tool related to an academic OS rewarding mechanism` =
