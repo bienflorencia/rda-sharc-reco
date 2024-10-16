@@ -5,7 +5,7 @@ page-layout: full
 
 ## Overview and discussion of the recommendations
 
-The summary of our recommendations is presented and discussed inf the following sections.
+The summary of our recommendations is presented and discussed in the following sections.
 
   - [Recommendations to **research performing organisations**](/research_performing_organisations)
   - [Recommendations to **funders**](/funders)

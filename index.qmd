@@ -5,7 +5,7 @@ page-layout: full
 authors:
   - name: Laurence Mabile
     orcid: 0000-0002-7724-1721
-    email: 
+    email: laurence.mabile@univ-tlse3.fr
   - name: Hanna Shmagun
     orcid: 0000-0001-6271-2976
   - name: Christopher Erdmann
