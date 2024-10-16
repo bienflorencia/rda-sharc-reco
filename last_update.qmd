@@ -1,0 +1,6 @@
+```{r}
+#| label: last_updated
+
+library(lubridate)
+stamp("1 January, 1999", order='%d %B, %Y')(today())
+```

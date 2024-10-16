@@ -24,4 +24,4 @@ Open Science contributes to the collective building of scientific knowledge and 
 
 **Keywords**: Open Science, Open Access, FAIR, rewards, sharing, research evaluation
 
-Last updated on: `{r} stamp("1 January, 1999", order='%d %B, %Y')(today())`.
+Last updated on: {{< embed last_updated.qmd >}}.
