@@ -52,15 +52,6 @@ reactable(table %>% set_names(~ str_to_sentence(.) %>%
               htmltools::tags$a(href = value,
                                 target = "_blank", value)
               }
-            }),
-            `Recommended action` = colDef(minWidth = 200)
-            )
-          # columns = list(
-          #   URL = colDef(cell = function(value) 
-          #     { htmltools::tags$a(href = value, 
-          #                         target = "_blank", value)
-          #     }),
-          #   `Recommended action` = colDef(minWidth = 200)
-          #   )
+            }),`Recommended action` = colDef(minWidth = 200))
 )
 ```

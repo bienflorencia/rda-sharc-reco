@@ -41,11 +41,13 @@ reactable(table %>% set_names(~ str_to_sentence(.) %>%
           defaultColDef = colDef(minWidth = 100),
           columns = list(
             URL = colDef(cell = function(value) 
-              { htmltools::tags$a(href = value, 
-                                  target = "_blank", value)
-              }),
-            `Recommended action` = colDef(minWidth = 200)
-            )
+            { if(is.na(value)) {
+              ''
+            } else{
+              htmltools::tags$a(href = value,
+                                target = "_blank", value)
+              }
+            }),`Recommended action` = colDef(minWidth = 200))
 )
 ```
 
