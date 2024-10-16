@@ -38,16 +38,6 @@ reactable(table %>% set_names(~ str_to_sentence(.) %>%
           outlined = TRUE,
           striped = TRUE, searchable = TRUE,
           defaultColDef = colDef(minWidth = 100),
-          reactable(table %>% set_names(~ str_to_sentence(.) %>%
-                  str_replace_all('_', ' ')) %>% 
-            mutate(Url = str_to_lower(Url)) %>% 
-            rename(URL=Url), 
-          resizable = TRUE,
-          defaultPageSize = 60,
-          wrap = TRUE,
-          outlined = TRUE,
-          striped = TRUE, searchable = TRUE,
-          defaultColDef = colDef(minWidth = 100),
           columns = list(
             URL = colDef(cell = function(value) 
             { 
