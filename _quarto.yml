@@ -10,7 +10,7 @@ website:
 
   page-footer:
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)"
-    left: "&copy; CC-BY [SHARC IG](https://www.rd-alliance.org/groups/sharing-rewards-and-credit-sharc-ig) (2023)"
+    left: "&copy; CC-BY [SHARC IG](https://www.rd-alliance.org/groups/sharing-rewards-and-credit-sharc-ig/activity/) (2024)"
     background: "#D9E3E4"
 
   sidebar:
@@ -19,7 +19,7 @@ website:
     align: center
     tools:
       - icon: globe
-        href: https://www.rd-alliance.org/groups/sharing-rewards-and-credit-sharc-ig
+        href: https://www.rd-alliance.org/groups/sharing-rewards-and-credit-sharc-ig/activity/
         text: 'SHARC IG'
       - icon: github
         href: https://github.com/bienflorencia/rda-sharc-reco
