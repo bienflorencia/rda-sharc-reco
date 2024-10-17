@@ -1,5 +1,5 @@
 Recommendation scope,Recommended action,Examples,URL
-Raising awareness of OS policies,"Be aware of the existing and relevant institutional, countrywide, regional, and community research policies, including laws, regulations and agreements",OS Policies Table B.1 ,
+Raising awareness of OS policies,"Be aware of the existing and relevant institutional, countrywide, regional, and community research policies, including laws, regulations and agreements",Examples of OS Policies,mapping_tools/os_policies
 Raising awareness of OS training,Be aware of OS training sessions and resources provided by institutions or communities,UNESCO OS Capacity Building Index,https://www.unesco.org/en/open-science/capacity-building-index
 ,,OS Loterre Thesaurus,https://skosmos.loterre.fr/TSO/es/
 OS Capacity building,"Maximise as much as possible digital presence using PID for individuals and for all outputs (e.g., ORCID, DOI or other identifier for open access publications / open access datasets / open source software)",Parsec Digital Presence checklist,https://zenodo.org/records/7071677#.Y-9Ms3bMK5c
@@ -18,10 +18,10 @@ Recognising contributorship,Acknowledge OS contributorship,,
 ,* Cite data and research outputs in Data Availability Statement and References sections of papers,,
 ,"* Acknowledge and cite OS tools used, e.g. with an identifier or 'How to cite' statement (if any)",,
 Raising awareness of OS costs,Be aware of how to include OS costs in all funding applications,Curation and Data Management Services,https://support.dataverse.harvard.edu/curation-services
-Raising awareness of OS financial rewarding ,Solicit dedicated financial reward or support,OS Awards/Prizes Table B.1 ,
+Raising awareness of OS financial rewarding ,Solicit dedicated financial reward or support,Examples of OS Awards/Prizes ,mapping_tools/os_award_prizes
 ,* Apply to specific funds for OS activities wherever relevant,,
 ,* Apply to OS prize/awards if any,,
 Raising awareness of OS symbolic rewarding ,Get symbolic reward,,
-,* Apply for OS certificates/OS ambassador/OS badge schemes,OS Champions Table B.5 ,
-,* Apply for training badges,OS Badges/Certificates/Tokens Table B.4 ,
+,* Apply for OS certificates/OS ambassador/OS badge schemes,Examples of OS Champions,mapping_tools/os_champions
+,* Apply for training badges,Examples of OS Badges/Certificates/Tokens,mapping_tools/os_badges_certificates_tokens
 ,* Join OS acknowledging opportunities to gain visibility/reputation,,
