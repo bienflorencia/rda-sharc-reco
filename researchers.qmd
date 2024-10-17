@@ -1,6 +1,7 @@
 ---
 title: 'To researchers'
 bibliography: references.bib
+csl: apa-6th-edition.csl
 page-layout: full
 ---
 

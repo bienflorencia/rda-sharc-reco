@@ -52,14 +52,6 @@ website:
             text: To researchers
       - href: concluding_remarks.qmd
         text: 'Concluding remarks'
-      # - section: ---
-      # - section: 'Recommendation tables'
-      #   contents:
-      #     - href: tables/table1.qmd
-      #     - href: tables/table2.qmd
-      #     - href: tables/table3.qmd
-      #     - href: tables/table4.qmd
-      #     - href: tables/table5.qmd
       - section: ---
       - href: terminology.qmd
         text: 'Terminology'

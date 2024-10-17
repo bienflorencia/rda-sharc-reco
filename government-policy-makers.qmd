@@ -1,6 +1,7 @@
 ---
 title: 'To government policy makers'
 bibliography: references.bib
+csl: apa-6th-edition.csl
 page-layout: full
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: 'Methodology'
 bibliography: references.bib
+csl: apa-6th-edition.csl
 page-layout: full
 ---
 
@@ -10,13 +11,13 @@ Before making precise proposals, the ethical framework and the values of science
 
 ## Preparatory step: Identifying the needs and research focus areas
 
-The first step of our work was a Birds of a Feather (BoF) session held during Research Data Alliance Plenary 9 (@fig-1, step 1). The session focused on the hurdles involved in opening up data and other research outputs in the research process, as well as on rewarding schemes and the extent of their use or absence regarding sharing data and other outputs. The discussions spurred i) the creation of the RDA-SHARC interest group that first focused on the design of a human readable FAIR assessment tool and ii) the establishment of a core evolving sub-working group gathering active members developing guidance and recommendations. 
+The first step of our work was a Birds of a Feather (BoF) session held during Research Data Alliance Plenary 9 (@fig-1, step 1). The session focused on the hurdles involved in opening up data and other research outputs in the research process, as well as on rewarding schemes and the extent of their use or absence regarding sharing data and other outputs. The discussions spurred i) the creation of the RDA-SHARC interest group that first focused on the design of a human readable FAIR assessment tool [@david_templates_2024] and ii) the establishment of a core evolving sub-working group gathering active members developing guidance and recommendations. 
 
 As part of this core group (namely, the authors of the present work), we further refined the needs related to recognition throughout i) additional interactive working sessions at RDA plenaries 11, 12, 13, 14, 15, 17, 19 and 20, ii) regular teleconference meetings, emails and asynchronous exchanges (e.g., via Google Doc). 
 
 ## Agreeing on terms and concepts: terminology
 
-The preparatory step led us to develop a terminology with regards to rewarding in science as a common understanding of the terms and concepts mapping this landscape (@fig-1, step 2). We identified all related terms we could think of as to research recognition schemes and categorised them as different types of possible rewards and reward mechanisms (see our [**Terminology**](terminology.html)). 
+The preparatory step led us to develop a terminology with regards to rewarding in science as a common understanding of the terms and concepts mapping this landscape (@fig-1, step 2). We identified all related terms we could think of as to research recognition schemes and categorised them as different types of possible rewards and reward mechanisms (see our [**Terminology**](terminology)). 
 
 From the literature, we agreed that types of rewarding can range from intangible reputational rewards such as recognising the contribution made by collaborators through acknowledgments and citations [@hicks_2012], to co-authorship [@latour_1979] and other tangible rewards (e.g., funds, prizes, career advancement, hiring, and patents) [@haeussler_2014; @nelson_2016; @shibayama_2021]. Opportunities of future collaboration were also reported as possible rewards for sharing [@haeussler_2014; @shibayama_2021]. 
 
@@ -24,7 +25,7 @@ From the literature, we agreed that types of rewarding can range from intangible
 
 To further facilitate the use of our recommendations, as a third step (@fig-1) we built several mapping tools that compiled existing policies and rewards related-tools: 
 
-- [OS Policies](mapping_tools/OS_policies), gathers brief descriptions and links to the main OS policies across many countries, pointing to rewards related information whenever specified; 
+- [OS Policies](mapping_tools/os_policies), gathers brief descriptions and links to the main OS policies across many countries, pointing to rewards related information whenever specified; 
 
 - Rewarding tools ([OS Awards/Prizes](mapping_tools/os_award_prizes), [OS Funds](mapping_tools/os_funds), [OS Badges/Certificates/Tokens](mapping_tools/os_badges_certificates_tokens), [OS Champions](mapping_tools/os_champions)), display examples of existing rewarding tools that were brought to our attention along the various discussions conveyed within SHARC's meetings, RDA plenaries and as a result of the SHARC OS survey (described in the next section).
 

@@ -1,5 +1,7 @@
 ```{r}
 #| label: last_updated
+#| eval: true
+#| echo: false
 
 library(lubridate)
 stamp("1 January, 1999", order='%d %B, %Y')(today())
