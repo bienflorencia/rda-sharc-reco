@@ -57,7 +57,7 @@ website:
         text: 'Terminology'
       - section: 'Mapping tools'
         contents:
-          - href: mapping_tools/OS_policies.qmd
+          - href: mapping_tools/os_policies.qmd
           - section: 'Rewarding tools'
             contents:
             - href: mapping_tools/os_award_prizes.qmd
