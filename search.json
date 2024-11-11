@@ -163,14 +163,18 @@
     "href": "mapping_tools/os_policies.html",
     "title": "OS Policies",
     "section": "",
-    "text": "Tips\n\n\n\n\nYou can resize columns by click-and-dragging the borders.\nYou can search for content in the table in the top-right Search box."
+    "text": "Tips\n\n\n\n\nYou can resize columns by click-and-dragging the borders.\nYou can search for content in the table in the top-right Search box.",
+    "crumbs": [
+      "Mapping tools",
+      "OS Policies"
+    ]
   },
   {
     "objectID": "last_update.html",
     "href": "last_update.html",
     "title": "SHARC",
     "section": "",
-    "text": "Attaching package: 'lubridate'\n\n\nThe following objects are masked from 'package:base':\n\n    date, intersect, setdiff, union\n\n\nMultiple formats matched: \"%d %Ob, %Y\"(1), \"%d %B, %Y\"(1)\n\n\nUsing: \"%d %Ob, %Y\"\n\n\n[1] \"17 Oct, 2024\""
+    "text": "Attaching package: 'lubridate'\n\n\nThe following objects are masked from 'package:base':\n\n    date, intersect, setdiff, union\n\n\nMultiple formats matched: \"%d %Ob, %Y\"(1), \"%d %B, %Y\"(1)\n\n\nUsing: \"%d %Ob, %Y\"\n\n\n[1] \"11 Nov, 2024\""
   },
   {
     "objectID": "publishers.html",
