@@ -7,13 +7,13 @@ page-layout: full
 
 @piwowar_2008 investigated the data sharing policies of 70 journals and found that researchers more frequently share data when journals have such a policy, and that the probability of sharing data correlates positively with the strength of the policy [@mongeon_2017]. Publishers' policies are therefore key for OS implementation. Over time many have established sharing policies in line with recommendations to research funders and institutions, yet there is a need for journals to provide clearer instructions to authors, reviewers and staff to encourage OS and foster rewarding schemes for it.
 
-Journals should facilitate researcher-authors' compliance with good OS practices as a prerequisite to credit. This entails implementing a number of connected measures: first, establishing a clear mandate to use unique PIDs for both individuals and their research outputs to enable their digital connectivity to the scholarly record and the attribution of their work; second, making a clear request that all data and software related to a published manuscript adhere to the FAIR principles, along with providing guidance on how to do so and where to deposit these resources to enable reuse; third, providing support for preprints would also help facilitate open access; and fourth, requiring the full and proper citation of all data and software, whether created, used or reused from others' research, in all publications, as it is indispensable for receiving credit. 
+Journals should facilitate researcher-authors' compliance with good OS practices as a prerequisite to credit. This entails implementing a number of connected measures: first, establishing a clear mandate to use unique PIDs for both individuals and their research outputs to enable their digital connectivity to the scholarly record and the attribution of their work; second, making a clear request that all data and software related to a published manuscript adhere to the FAIR principles, along with providing guidance on how to do so and where to deposit these resources to enable reuse; third, providing support for preprints would also help facilitate Open Access; and fourth, requiring the full and proper citation of all data and software, whether created, used or reused from others' research, in all publications, as it is indispensable for receiving credit. 
 
 Requesting FAIR data and software implies that editorial staff and reviewers are able to verify proper citation of data and software and ensure that all supplementary resources are openly available, free of charge, even if the article is not. For this, journals should assign specific editors, such as 'data editors', to assess the quality and FAIRness of data and software (e.g., The American Naturalist). By supporting the FAIR principles in their policies, in combination with clear instructions on how authors should comply, will aid the journals in making strides towards more automated reviews.
 
 The peer-reviewing activity is essential to the scientific method, and publishers should endeavour to recognise its importance and promote transparency through open peer-reviewing models (with or without reviewers anonymity). This can be an additional way to expand OS and improve responsible research assessment. Journals should systematically implement existing tools, such as the CRediT taxonomy, to enable clarifying one's contribution/roles in research works, and systematically use existing guidelines such as the TOP Factor, which can assess their openness and transparency.
 
-Finally, to foster greater inclusivity it is crucial to reconsider the current calibration of OA publishing fees, which are based solely on a country's GDP for Low- and Middle-Income Countries (LMICs). This approach unfairly impacts countries like for instance Uruguay, where GDP is not considered to be low while their R&D funding is; In such cases, it is imperative to employ more meaningful economic indicators  to mitigate the exacerbation of disparities in global knowledge access and to calibrate more equitable costs. Programs such as Research4Life provide one mechanism for use by publishers to try  to calibrate costs. More concrete examples are provided in Table 3. 
+Finally, to foster greater inclusivity it is crucial to reconsider the current calibration of OA publishing fees, which are based solely on a country's GDP for Low- and Middle-Income Countries (LMICs). This approach unfairly impacts countries like for instance Uruguay, where GDP is not considered to be low while their R&D funding is; In such cases, it is imperative to employ more meaningful economic indicators  to mitigate the exacerbation of disparities in global knowledge access and to calibrate more equitable costs. Programs such as Research4Life provide one mechanism for use by publishers to try  to calibrate costs. More concrete examples are provided in Table 3.
 
 
 <br>
@@ -27,15 +27,15 @@ Finally, to foster greater inclusivity it is crucial to reconsider the current c
 library(reactable)
 library(tidyverse)
 
-table <- read_csv('tables/table3_recos_to_publishers.csv') %>% 
-  janitor::clean_names() %>% 
+table <- read_csv('tables/table3_recos_to_publishers.csv') %>%
+  janitor::clean_names() %>%
   mutate(across(1:3, ~ str_trim(.)))
 
 
 reactable(table %>% set_names(~ str_to_sentence(.) %>%
-                  str_replace_all('_', ' ')) %>% 
-            mutate(Url = str_to_lower(Url)) %>% 
-            rename(URL=Url), 
+                  str_replace_all('_', ' ')) %>%
+            mutate(Url = str_to_lower(Url)) %>%
+            rename(URL=Url),
           resizable = TRUE,
           defaultPageSize = 60,
           wrap = TRUE,
@@ -43,13 +43,11 @@ reactable(table %>% set_names(~ str_to_sentence(.) %>%
           striped = TRUE, searchable = TRUE,
           defaultColDef = colDef(minWidth = 100),
           columns = list(
-            URL = colDef(cell = function(value) 
-            { 
+            URL = colDef(cell = function(value)
+            {
               htmltools::tags$a(href = value,
                                 target = "_blank", value)
             }),
             `Recommended action` = colDef(minWidth = 200))
 )
 ```
-
-
